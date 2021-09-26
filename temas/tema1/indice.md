@@ -7,4 +7,4 @@
 4. Léxico, sintaxis, semántica
 
 ## Clases 
-* [Clase 1 (27/9)](clase01.md): Conceptos de algoritmo y visión información de programación en python
+* [Clase 1 (27/9)](clase1.md): Conceptos de algoritmo y visión información de programación en python
