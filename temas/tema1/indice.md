@@ -8,3 +8,4 @@
 
 ## Clases 
 * [Clase 1 (27/9)](clase1.md): Conceptos de algoritmo y visión información de programación en python
+* [Clase 2 (28/9)](clase2.md): Seguimos viendo conceptos de programación como variables, tipos o bucles de manera informal.
