@@ -25,3 +25,31 @@ left(angulo)
 Ahora todos los `left` usan el valor que contenga `angulo` que se ajustará al correcto atendiendo al valor que le demos a la otra variable `lado` . En ese código también podemos ver como podemos hacer pequeños cálculos matemáticos.
 
 [[Ver código de esta segunda solución](t2e3b.py)]
+
+El segundo problema que impide reutilizar el código sin cambiarlo es las veces que hace el par `forward`/`left`. Para eso los lenguajes de programación ofrecen estructuras de control que permiten indicar que queremos repetir un trozo de código:
+
+```python
+...
+for i in range(lados):
+  forward(80)
+  left(angulo)
+````
+
+Sin entrar mucho en detalles el `for` permite repetir lo que esté a continuación (con tabulador) el número de veces indicado por `lados`.
+
+[[Ver código de esta tercera solución](t2e3c.py)]
+
+Finalmente generalizamos el código para que lea el número de lados desde teclado en vez de estar fijo. Esto se hace con `input(...)`. Lo único que hay que tener en cuenta es que `input` siempre lee textos y hay que convertirlo a número con `int(...)`. Esto se pude hacer en dos pasos:
+
+```python
+lado = input("Indique el número de lados: ") # Lee el valor como texto
+lado = int(lado) # Convertimos el lado a entero
+```
+o haciendo ambos pasos a la vez
+```python
+lado = int(input("Indique el número de lados: "))
+```
+
+Observe que lo que aparece desde `#` hasta el salto de línea es un comentario que será ignorado por el interprete y solo nos sirve a nosotros para aclararnos.
+
+[[Ver código de esta última solución](t2e3d.py)]
