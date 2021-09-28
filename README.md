@@ -8,6 +8,8 @@ En este repositorio se irán subiendo los códigos desarrollados durante la doce
 
 ## Clases
 * [Clase 1 (27/9)](temas/tema1/clase1.md): Conceptos de algoritmo y visión información de programación en python
+* [Clase 2 (28/9)](temas/tema1/clase2.md): Seguimos viendo conceptos de programación como variables, tipos o bucles de manera informal.
+
 
 ## Prácticas
 * Práctica 1
