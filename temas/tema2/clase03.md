@@ -10,16 +10,16 @@ En esta clase vimos gran parte del tema 2 (aunque muchos conceptos ya los había
 
 ## Ejercicio de practicar el `print(...)`
 
-[[Ve código](codigo/t3e01.print.py)]
+[[Ve código](codigo/t2e01.print.py)]
 
 ## Expresiones aritméticas
 
-[[Ve código](codigo/t3e02.expresiones.py)]
+[[Ve código](codigo/t2e02.expresiones.py)]
 
 ## Conversión de grados
 
-[[Ve código](codigo/t3e03.conversion.py)]
+[[Ve código](codigo/t2e03.conversion.py)]
 
 ## Cálculo de la velocidad media
 
-[[Ve código](codigo/t3e04.velocidad.py)]
+[[Ve código](codigo/t2e04.velocidad.py)]
