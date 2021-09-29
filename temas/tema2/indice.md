@@ -7,3 +7,4 @@
 4. Codificación de datos, entrada/salida
 
 ## Clases 
+* [Clase 3 (29/9)](clase03.md): Conceptos básicos: variables, tipos, identificadores y tipos. Operaciones básicas en python: print, input, conversión de tipos, expresiones matemáticas. Primeros programas: conversión de centígrados a farenheit y calcular una velocidad media.
