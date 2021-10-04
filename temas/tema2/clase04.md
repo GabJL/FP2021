@@ -33,14 +33,25 @@ En este caso el problema es como separar por ejemplo 28 meses en 2 años y 4 mes
 
 *Realice un programa que lea el nombre, el apellido y su año de nacimiento (como texto) y genere los dos posibles correos.*
 
+En este ejercicio queremos practica las operaciones sobre cadenas (`str`):
+* Para unir textos usamos `+`
+* Para acceder a una letra usamos `[pos]`. Por ejemplo, la primera del nombre es `nombre[0]`. Recuerde que las posiciones se numeran empezando en 0.
+* Para acceder a subcadenas usamos `[inicio:fin]`. Por ejemplo, los dos últimos de la año sería `año[-2:]` (año debe ser un texto) o las tres primeras del nombre es `nombre[:3]`. 
+
 [[Ver Código](codigo/t2e07.correos.py)]
 
 ## Pulgada a centímetros (Relación del Tema 2 - Ejercicio 5)
 *Hacer  un  programa  que  pida  una  longitud  en  pulgadas  y  la  imprima  en  centímetros  (1in  =  2.54cm)*
+
+Este ejercicio es bastante sencillo y parecido a los realizados la semana pasada.
  
 [[Ver Código](relacion/t2e05.inch2cm.py)]
 
 ## Hipotenusa (Relación del Tema 2 - Ejercicio 6)
 *Pedir  los  catetos  de  un  triángulo  rectángulo  y  e  imprimir  su  hipotenusa  (Teorema  de Pitágoras: 𝑎^2 +𝑏^2 =𝑐^2). Para calcular la raíz cuadrada recordar que hay que importar math (`import math`) y llamar a `math.sqrt(valor)`, o también usando `valor**0.5`*
+
+También es un ejercicio cuyo objetivo es practicar expresiones aritméticas. Solo tenga en cuenta:
+* Que debe usar paréntesis para imponer en el orden que quieres hacer las operaciones
+* La raiz cuadrada la puede tanto con `**0.5` como con `math.sqrt`. En la solución se muestran ambas alternativas.
 
 [[Ver Código](relacion/t2e06.hipotenusa.py)]
