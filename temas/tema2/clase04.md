@@ -24,3 +24,23 @@ Otros detalles importantes a tener en cuenta:
 En este caso el problema es como separar por ejemplo 28 meses en 2 años y 4 meses. Para eso podemos hacer uso de la división entera (`//`) ya que `28//12 = 2` y el resto ya que  `28%12 = 4`.
 
 [[Ver Código](codigo/t2e06.calculo_edad.py)]
+
+## Generando correos
+*La UMA está pensando en autogenerar los correos de los alumnos y estápensando dos posible esquemas:*
+
+* *Primera letra del nombre + un punto + primer apellido + 2 últimas cifras del añode nacimiento*
+* *3 primeras letras del nombre + 3 primeras letras del primer apellido + 2 últimascifras del añode nacimiento.*
+
+*Realice un programa que lea el nombre, el apellido y su año de nacimiento (como texto) y genere los dos posibles correos.*
+
+[[Ver Código](codigo/t2e07.correos.py)]
+
+## Pulgada a centímetros (Relación del Tema 2 - Ejercicio 5)
+*Hacer  un  programa  que  pida  una  longitud  en  pulgadas  y  la  imprima  en  centímetros  (1in  =  2.54cm)*
+ 
+[[Ver Código](relacion/[t2e05.inch2cm.py])]
+
+## Hipotenusa (Relación del Tema 2 - Ejercicio 5)
+*Pedir  los  catetos  de  un  triángulo  rectángulo  y  e  imprimir  su  hipotenusa  (Teorema  de Pitágoras: 𝑎^2 +𝑏^2 =𝑐^2). Para calcular la raíz cuadrada recordar que hay que importar math (`import math`) y llamar a `math.sqrt(valor)`, o también usando `valor**0.5`*
+
+[[Ver Código](relacion/t2e06.hipotenusa.py])]
