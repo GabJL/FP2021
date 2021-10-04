@@ -15,3 +15,12 @@ Otros detalles importantes a tener en cuenta:
 * Recuerde que los decimales si ponen con punto, es decir, 0.21 es correcto pero 0,21 no lo es.
 
 [[Ver Código](codigo/t2e05.siniva.py)]
+
+## Cálculo de la edad
+*Es habitual que cuando se pregunta la edad de un niño pequeño se responda con la cantidad de meses y es complicado saber la edad en añosdel bebé."
+
+*Realice un programa que reciba los meses y nos diga la edad real en años y meses del niño.*
+
+En este caso el problema es como separar por ejemplo 28 meses en 2 años y 4 meses. Para eso podemos hacer uso de la división entera (`//`) ya que `28//12 = 2` y el resto ya que  `28%12 = 4`.
+
+[[Ver Código](codigo/t2e06.calculo_edad.py)]
