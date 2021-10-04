@@ -40,7 +40,7 @@ En este caso el problema es como separar por ejemplo 28 meses en 2 años y 4 mes
  
 [[Ver Código](relacion/[t2e05.inch2cm.py])]
 
-## Hipotenusa (Relación del Tema 2 - Ejercicio 5)
+## Hipotenusa (Relación del Tema 2 - Ejercicio 6)
 *Pedir  los  catetos  de  un  triángulo  rectángulo  y  e  imprimir  su  hipotenusa  (Teorema  de Pitágoras: 𝑎^2 +𝑏^2 =𝑐^2). Para calcular la raíz cuadrada recordar que hay que importar math (`import math`) y llamar a `math.sqrt(valor)`, o también usando `valor**0.5`*
 
 [[Ver Código](relacion/t2e06.hipotenusa.py])]
