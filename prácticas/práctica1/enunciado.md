@@ -133,10 +133,10 @@ La pantalla mide 14.6912 x 6.95897 cm2
 *Muchas veces al ir a tomar el transporte público se escapa por pocos segundos. Realice un programa  que  pida  la  hora  (hora  y  minutos)  y  el  periodo  del  transporte  (en  minutos)  y  nos  diga  cuándo  pasa  el siguiente. Para realizar el ejercicio no necesita sentencias de selección (if) sino piense si puede utilizar los operadores de división entera (//) y resto (%). Tres ejemplos: *
  
 ```
-Tiempo (horas): 7   		  Tiempo (horas): 9    	Tiempo (horas): 23 
+Tiempo (horas): 7       Tiempo (horas): 9     Tiempo (horas): 23 
 Tiempo (minutos): 25    Tiempo (minutos): 55  Tiempo (minutos): 35 
-Periodo: 7    					     Periodo: 16    				   Periodo: 40 
-Siguiente: 7:32    		  	Siguiente: 10:11   		 Siguiente: 0:15 
+Periodo: 7              Periodo: 16           Periodo: 40 
+Siguiente: 7:32         Siguiente: 10:11      Siguiente: 0:15 
 ```
 *__OBJETIVOS:__ Pensar el algoritmo de programas complejos y uso de operaciones aritméticas de números enteros no habituales.*
 
