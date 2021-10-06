@@ -14,6 +14,6 @@ En este repositorio se irán subiendo los códigos desarrollados durante la doce
 
 
 ## Prácticas
-* Práctica 1
+* [Práctica 1](prácticas/práctica1/enunciado.md): Repasar conceptos básicos de python como son los identificadores, las variables, los tipos o el uso de expresiones básicas.
 
 ## Examenes
