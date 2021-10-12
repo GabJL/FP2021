@@ -105,15 +105,15 @@ a % b = 2
 Valor de a: 2
 Valor de b: 0 
 Valor de c: -2 
-x1 = 0.5 
-x2 = -0.5 
+x1 = 1 
+x2 = -1 
 ```
 
 *Pruebe también los valores 1, 0, 1. ¿Funciona bien?*
 
 *__OBJETIVOS:__ Uso de expresiones matemáticas más complejas.*
 
-[Ver solución]
+[[Ver solución](códigos/p1e07.ecuación_grado2.py)]
  
 ## Ejercicio 8: p1e08.pantalla.py (★★★★★)  
 *Es  muy  habitual  que  cuando  se  habla  de  pantallas  (TVs,  monitores,  móviles  o tablets) se indique la diagonal y en pulgadas (TVs de 45’, móviles con pantalla de 6,4’...). Las dimensiones reales del dispositivo dependen  de la proporción  (habitualmente 16:9 o 4:3 pero actualmente hay móviles y monitores más 
@@ -127,7 +127,7 @@ La pantalla mide 14.6912 x 6.95897 cm2
 ``` 
 *__OBJETIVOS:__ Ser capaz de entender problemas más complejos, buscar información y ser capaz de plantear la solución.*
 
-[Ver solución]
+[[Ver solución](códigos/p1e08.pantalla.py)]
 
 ## Ejercicio 9: p1e09.transporte.py (★★★★✰)  
 *Muchas veces al ir a tomar el transporte público se escapa por pocos segundos. Realice un programa  que  pida  la  hora  (hora  y  minutos)  y  el  periodo  del  transporte  (en  minutos)  y  nos  diga  cuándo  pasa  el siguiente. Para realizar el ejercicio no necesita sentencias de selección (if) sino piense si puede utilizar los operadores de división entera (//) y resto (%). Tres ejemplos: *
@@ -140,4 +140,4 @@ Siguiente: 7:32         Siguiente: 10:11      Siguiente: 0:15
 ```
 *__OBJETIVOS:__ Pensar el algoritmo de programas complejos y uso de operaciones aritméticas de números enteros no habituales.*
 
-[Ver solución]
+[[Ver solución](códigos/p1e09.transporte.py)]
