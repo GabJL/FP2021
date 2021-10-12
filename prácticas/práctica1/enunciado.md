@@ -1,7 +1,8 @@
 # Práctica 1
 
 ## Ejercicio 1: p1e01.errores.py (★★★✰✰) 
-*El siguiente programa escrito en python calcula la cantidad bruta y neta a pagar por un trabajo realizado en función de las horas y días trabajados. Sin embargo, en el momento en que se intenta ejecutar se producen una serie de errores. El alumno debe localizar dichos errores y corregirlos. Para ello debe examinar los  mensajes que proporciona el sistema e interpretarlos convenientemente. *
+
+*El siguiente programa escrito en python calcula la cantidad bruta y neta a pagar por un trabajo realizado en función de las horas y días trabajados. Sin embargo, en el momento en que se intenta ejecutar se producen una serie de errores. El alumno debe localizar dichos errores y corregirlos. Para ello debe examinar los  mensajes que proporciona el sistema e interpretarlos convenientemente.*
  
  ```python
 TASA = 25.0 
@@ -113,7 +114,7 @@ x2 = -1
 
 *__OBJETIVOS:__ Uso de expresiones matemáticas más complejas.*
 
-[[Ver solución](códigos/p1e07.ecuación_grado2.py)]
+[[Ver solución](códigos/p1e07.ecuacion_grado2.py)]
  
 ## Ejercicio 8: p1e08.pantalla.py (★★★★★)  
 *Es  muy  habitual  que  cuando  se  habla  de  pantallas  (TVs,  monitores,  móviles  o tablets) se indique la diagonal y en pulgadas (TVs de 45’, móviles con pantalla de 6,4’...). Las dimensiones reales del dispositivo dependen  de la proporción  (habitualmente 16:9 o 4:3 pero actualmente hay móviles y monitores más 
