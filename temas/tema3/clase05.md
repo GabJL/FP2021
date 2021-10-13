@@ -25,3 +25,56 @@ Se muestra como ejemplo un código básico para resolver una ecuación de orden 
 Como ejemplo de uso de la sentencia de selección simple, se muestra el código del valor absoluto que debe cambiar el signo si el número es negativo pero no hacer nada si es positivo.
 
 [[Ver código](códigos/t3e04.absoluto.py)]
+
+## Ejemplo 3: Positivo o negativo
+
+Como próximo ejemplo se muestra un código que clasifica el número leído en positivo (incluyendo al 0) o negativo. Para esto es necesario utilizar una sentencia de selección binaria donde el mensaje puede ser uno entre dos posibles
+
+[[Ver código](códigos/t3e05.pos_o_neg.py)]
+
+## Ejercicio 3: Menor de dos valores
+
+En este caso se muestran varias alternativas para calcular el menor de dos números leídos de teclado. Todos son correctos, pero hay algunos mejores que otros:
+
+Uno de los código a evitar es:
+
+```python
+if a < b:
+  b = a
+else:
+  b = b
+print("El menor es:", b)
+```
+
+El principal problema de este código es que usa `b = b` que realmente es código que no hace nada y no debería utilizarle.
+
+Otro código poco recomendable es:
+
+```python
+if a < b:
+  print("El menor es:", a)
+else:
+  print("El menor es:", b)
+```
+
+En este caso repite el `print` en ambas opciones del `if`, lo cual no es recomendable. Si hay partes comunes, lo mejor es evitar repeticiones y sacarlo fuera (antes o después del `if ` atendiendo a la necesidad) y solo ponerlas una vez.
+
+El resto de soluciones son adecuadas y quizás dependiendo del caso podría convenir una más que otra.
+
+# Ejercicio 4: Hora
+
+Realice un programa que pregunte la hora en formato 24h y nos devuelva esa misma hora en formato am/pm. am (Ante meridiem) representa las 12 primeras horas del día y pm (Post meridiem) las últimas 12 horas. 
+
+En este caso hay tres posibles casos diferenciados:
+* Menor de 12: las horas no cambian y se pone "am"
+* Son las 12: la hora no cambia pero se pone "pm"
+* Mayor de las 12: a las horas se les resta 12 y se pone "pm"
+
+Con lo visto hasta el momento este ejercicio hay que hacerlo con `if` anidados (un `if` dentro de otro `if`):
+
+[[Ver código](códigos/t3e06.conversion_hora1.py)]
+
+Aunque también se utilizó el ejemplo para ver las sentencias de selección múltiple (que incluyen `elif` que es contracción de `else if`) para generar un código más legible:
+
+[[Ver código](códigos/t3e06.conversion_hora2.py)]
+
