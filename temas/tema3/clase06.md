@@ -70,3 +70,29 @@ Este es muy parecido al ejemplo anterior. Y de nuevo, lo importante es utilizar 
 Aunque podríamos hacer un if con 12 casos, realmente hay 3 posibles valores resultantes válidos y podemos agrupar las condiciones. También es recomendable usar primero las condiciones más cortas y dejar para el `else` la más larga ya que no hay que ponerla.
 
 [[Ver Código](códigos/t3e12.meses.py)]
+
+## Calculadora
+
+*Realice un programa que actúe como una calculadora simple. Para ello debemos leer dos valores reales, que serán los operadores y una letra, operador. Las posibles operaciones permitidas son +, -, \* o /.*
+
+*Como resultado debe dar el valor de evaluar la operación o ERROR si no fue posible realizarla.*
+
+Es un ejemplo típico de sentencia de selección múltiple.
+
+[[Ver Código](códigos/t3e13.calculadora.py)]
+
+## Ecuación de segundo grado
+
+*Modifique el ejemplo del principio del tema, para que como respuesta el programa indique cuántas soluciones reales tiene (0, 1, 2 o infinitas) y en caso de tener un número contable que indíquelas.*
+
+*Antes de empezar a programar piense los posibles casos:*
+* *Hay una situación en la que hay infinitas soluciones*
+* *Hay dos situaciones en las que no hay solución (al menos real)*
+* *Hay dos situaciones en las que solo hay una solución*
+* *Hay una situación en las que hay dos soluciones diferentes*
+
+*Lea los coeficientes y calcule el discriminante (b2-4ac). Posteriormente use una sentencia de selección múltiple para identificar los casos (únalos cuando sea posible) y calcule las soluciones.*
+
+Es hacer lo que indica el enunciado
+
+[[Ver Código](códigos/t3e14.ec_segundo_grado.py)]
