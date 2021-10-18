@@ -4,7 +4,7 @@ En esta clase se repasó la parte de condiciones, sentencias de selección y se 
 
 A continuación se muestran los códigos trabajados en clase o aquellos que se dejaron para que los intentase el alumnado.
 
-Especialmente importante para la parte de bucles son los ejercicios cortos finales
+Especialmente importante para la parte de bucles son los [ejercicios cortos finales](#ejercicios-cortos).
 
 ## Año bisiesto
 
