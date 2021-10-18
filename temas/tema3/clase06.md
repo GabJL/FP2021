@@ -96,3 +96,52 @@ Es un ejemplo típico de sentencia de selección múltiple.
 Es hacer lo que indica el enunciado
 
 [[Ver Código](códigos/t3e14.ec_segundo_grado.py)]
+
+## Escribir N "Hola Mundo!"
+
+*Realice un programa que escriba N (siendo N leído de teclado) veces la frase "Hola Mundo!"*
+
+Ejemplo usado para introducir el bucle `while`.
+
+[[Ver Código](códigos/t3e15.holamundo.py)]
+
+## Tabla del 7
+
+*Realice un programa que escriba la tabla de multiplicar del 7.*
+
+Otro ejemplo usado para introducir el bucle `while`.
+
+[[Ver Código](códigos/t3e16.tabla7.py)]
+
+## Ejercicios cortos
+
+### Ejercicio 1
+*Lee 20 números y nos diga cuántos 0s hay*
+
+Un elemento importante a destacar en este ejercicio, es que realmente no nos interesan los números concretos que hemos leído hasta el momento si no hay variable que nos almacene un resumen (de la parte que nos interese) de todos esos valores. Es decir, no nos interesa saber si el usuario ha metido 0 1 3 5 0 2 sino que hemos leído 2 ceros. Por ello, tendremos una variable `contador_de_0s` que nos almacene ese valor mientras que los números leídos los podemos ir machacando. Este tipo de variable que resumen los datos contando los valores que cumplen cierta propiedad se denominan **contadores**.
+
+[[Ver Código](códigos/t3e17.corto1.py)]
+
+### Ejercicio 2
+*Lee 10 números y nos diga su suma*
+
+Similar al ejercicio anterior pero en este caso no nos interesa contar, sino sumar (acumular) todos los valores. Estas variables se denominan **acumuladores**.
+
+[[Ver Código](códigos/t3e18.corto2.py)]
+
+### Ejercicio 3
+*Modifique el anterior para calcular la media de los números leídos*
+
+Sabiendo la suma de los valores, calcular la media es bastante sencillo, ya que solo hay que dividir esa suma entre el número de valores (10).
+
+[[Ver Código](códigos/t3e19.corto3.py)]
+
+### Ejercicio 4
+*Lee 30 números y nos muestre cuántos números pares y cuántos impares hay*
+
+[[Ver Código](códigos/t3e20.corto4.py)]
+
+### Ejercicio 5
+*Modifique el anterior ejercicio para que en vez de leer 30 números, lea hasta que el número sea negativo.*
+
+[[Ver Código](códigos/t3e21.corto5.py)]
