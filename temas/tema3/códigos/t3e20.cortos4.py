@@ -13,4 +13,4 @@ while num_veces < MAX:
     impares += 1
   num_veces += 1
 
-print("Se han leído", pares, "números pares y", impares, " números impares")
+print("Se han leído", pares, "números pares y", impares, "números impares")
