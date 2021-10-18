@@ -38,3 +38,35 @@ Este se mando en la actividad de la semana 3. Existen múltiples soluciones, voy
 
 [[Ver Código](códigos/t3e09.rosetta.py)]
 
+## Calificación
+
+*Pasar de calificación numérica a texo*
+
+Esto aparece en las transparencias como ejemplo, pero ya que de las transparencias se puede copiar peor y por completitud, también lo pongo aquí.
+
+[[Ver Código](códigos/t3e10.calificación.py)]
+
+## Generación
+
+*Realice un programa que lea el año de nacimiento y diga a qué generación perteneces de acuerdo a la siguiente tabla:*
+
+| Años | Generación |
+| ---- | ---- |
+| < 1946 | No considerados |
+| 1946 - 1961 | Baby Boomer |
+| 1962 - 1980 | Generación X |
+| 1981 - 1996 | Generación Y (millenials) |
+| 1997 - 2010 | Generación Z |
+| \> 2010 | Generación T (táctil) |
+
+Este es muy parecido al ejemplo anterior. Y de nuevo, lo importante es utilizar el conocimiento y en vez de usar cosas como `elif 1946 <= año and año <= 1961:` y poner cosas como `elif año <= 1961:` aprovechando el conomiento de que las condiciones previas son falsas.
+
+[[Ver Código](códigos/t3e11.generación.py)]
+
+## Días por año:
+
+*Realice un programa que lea el nombre de un mes (entero en minúsculas) y nos día la cantidad de días que tiene ese mes.*
+
+Aunque podríamos hacer un if con 12 casos, realmente hay 3 posibles valores resultantes válidos y podemos agrupar las condiciones. También es recomendable usar primero las condiciones más cortas y dejar para el `else` la más larga ya que no hay que ponerla.
+
+[[Ver Código](códigos/t3e12.meses.py)]
