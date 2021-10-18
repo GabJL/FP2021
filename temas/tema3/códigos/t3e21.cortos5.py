@@ -10,4 +10,4 @@ while num >= 0:
     impares += 1
   num = int(input("Dime un número: "))
 
-print("Se han leído", pares, "números pares y", impares, " números impares")
+print("Se han leído", pares, "números pares y", impares, "números impares")
