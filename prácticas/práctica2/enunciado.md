@@ -1,6 +1,6 @@
 # Práctica 2
 
-# p1e01.paridad.py – Par (★✰✰✰✰) 
+# p2e01.paridad.py – Par (★✰✰✰✰) 
 *Realice un programa que lea un número de teclado y nos diga si es par o impar como el siguiente ejemplo:*
 
 ```
@@ -17,9 +17,9 @@ Introduzca un número: 3.45
 El 3.45 es un número mu raro 
 ```
 
-[Ver solución]
+[[Ver solución](códigos/p2e01.paridad.py)]
 
-# p1e02.imc_v2.py – No estoy gordo, soy de constitución fuerte (★★✰✰✰) 
+# p2e02.imc_v2.py – No estoy gordo, soy de constitución fuerte (★★✰✰✰) 
 *Construir un programa que calcule el índice de masa corporal de una persona (IMC = peso [kg] / altura2 [m]) e indique el estado en el que se encuentra esa persona en función del valor de IMC. Utilice una sentencia de selección múltiple (`if/elif/.../else`).*
 
 | IMC |Diagnóstico | 
@@ -32,9 +32,9 @@ El 3.45 es un número mu raro
  
 *__OBJETIVOS:__ Ser capaz de utilizar de forma apropiada la sentencia de selección múltiple. Ser capaz de simplificar las condiciones atendiendo a las condiciones de los ifs previos.*
 
-[Ver solución]
+[[Ver solución](códigos/p2e02.imc_v2.py)]
 
-# p1e03.mayor.py – El más grande (★★✰✰✰) 
+# p2e03.mayor.py – El más grande (★★✰✰✰) 
 *Hacer un programa que pida tres números y diga el mayor de los tres. Por ejemplo:*
  
 ```
@@ -48,9 +48,9 @@ El mayor número es el 14
  
 *__RETO (★★★✰✰):__ (Opcional) Sin cambiar el comportamiento (el usuario que lo utiliza no debe notar nada), cambie el código para que use a lo máximo dos variables (posiblemente una que lea los valores de uno en uno y otra que almacene el mayor hasta el momento)*
  
-[Ver solución]
+[[Ver solución](códigos/p2e03.mayor.py)]
 
-# p1e04.ordenar.py] – “El orden es importante” Marie Kondo (★★★✰✰) 
+# p2e04.ordenar.py – “El orden es importante” Marie Kondo (★★★✰✰) 
 *Realice un programa que pida tres valores y los imprima de forma ordenada. Ejemplo:*
 
 ```
@@ -62,9 +62,9 @@ Los números ordenados son: 1 8 14
 
 *__OBJETIVOS:__  Pensar  una  solución  con  sentencias  de  selección  (existen  múltiples  alternativas)  y  ser  capaz  de implementarla.*
  
-[Ver solución]
+[[Ver solución](códigos/p2e04.ordenar.py)]
 
-# p1e05.letras.py - char mander (★★★★✰) 
+# p2e05.letras.py - char mander (★★★★✰) 
 *Realice un programa que lea una letra minúscula y nos diga si el valor leído es una letra (vocal o consonante), un número o un símbolo, tal como se muestran en los siguientes ejemplos.*
 
 *Primero haga una versión que distinga entre letra, número y símbolo, y una vez resuelto esa parte incorpore, como segunda versión, la distinción entre vocal o consonante si era una letra.*
@@ -88,9 +88,9 @@ Los números ordenados son: 1 8 14
  
 *__RETO  (★★★★✰):__  (Opcional)  Modifique  el  código  de  forma  que  su  código  permita  tanto  mayúsculas  como minúsculas. Python ofrece los métodos `lower()` y `upper()` que permite convertir un texto a minúscula o mayúsculas, respectivamente (si la letra ya está en formato requerido o es otro tipo de símbolo, lo devuelve sin modificar). Por ejemplo, convertir en minúscula sería: `letra = letra_original.lower().`*
 
-[Ver solución]
+[[Ver solución](códigos/p2e05.letras.py)]
 
-# p1e06.horario.py – Horario (★★★★✰) 
+# p2e06.horario.py – Horario (★★★★✰) 
 *La UMA está considerando añadir en su app una nueva funcionalidad que nos dime la hora del móvil y nos diga si en ese momento el centro donde cursas estudios está abierto o no. Para ello nos han pedido hacer un pequeño prototipo:*
 
 * *En la primera versión se le debe pedir al usuario la hora y los minutos y nos debe decir si está abierta. La facultad abre de 7:45 a 22:00.*
@@ -114,7 +114,7 @@ Los números ordenados son: 1 8 14
 
 [Ver solución]
 
-# p1e08.juego.py - Piedra, papel, tijera (lagarto, Spock) 
+# p2e07.juego.py - Piedra, papel, tijera (lagarto, Spock) 
 *El juego “Piedra, Papel o Tijeras” es un juego que involucra a dos jugadores que deben elegir su jugada (elegir entre piedra, papel o tijeras) de forma independiente y oculta al otro jugador. Tras la elección, se hace una cuenta atrás y ambos jugadores muestran simultáneamente sus jugadas. El ganador se decide de acuerdo a las siguientes reglas:* 
 
 * *La piedra gana a las tijeras.*
