@@ -14,6 +14,7 @@ En este repositorio se irán subiendo los códigos desarrollados durante la doce
 * [Clase 4 (4/10)](temas/tema2/clase04.md): Ejercicios sobre conceptos básicos. Operaciones sobre `str` y acceso a los letras individuales o a subcadenas.
 * [Clase 5 (13/10)](temas/tema3/clase05.md): Condiciones y sentencias de selección. Ejercicios sobre estos apartados.
 * [Clase 6 (18/10)](temas/tema3/clase06.md): Repaso de las sentencias de selección especialmente prestando atención a la sentencia de selección múltiple. También se empezó con la sentencia de repetición while.
+* [Clase 7 (20/10)](temas/tema3/clase07.md): Repaso del bucle `while` e introducción al `for`.
 
 
 ## Prácticas
