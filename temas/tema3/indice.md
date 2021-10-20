@@ -6,3 +6,4 @@
 ## Clases
 * [Clase 5 (13/10)](clase05.md): Condiciones y sentencias de selección. Ejercicios sobre estos apartados
 * [Clase 6 (18/10)](clase06.md): Repaso de las sentencias de selección especialmente prestando atención a la sentencia de selección múltiple. También se empezó con la sentencia de repetición while.
+* [Clase 7 (20/10)](clase07.md): Repaso del bucle `while` e introducción al `for`.
