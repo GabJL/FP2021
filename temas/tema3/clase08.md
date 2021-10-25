@@ -88,3 +88,25 @@ Muy similar al anterior (la versión del `for`) pero en vez de contar, va acumul
 
 [[Ver código](códigos/t3e37.perfecto.py)]
 
+## Figuras
+
+La idea de todos estos ejercicios es practicar los bucles anidados por lo que evitaremos utilizar cosas como `"*"*n`. En general:
+* Tendremos un bucle externo que se encarga de dibujar las líneas
+* De forma interna hay que pintar cada línea y actualizar las variables para cada línea.
+* Hay que decidir qué forma cada línea. Por ejemplo la cuarta línea está formada por: muchos asteriscos + muchoes espacios + nuchos asteriscos + salto de línea:
+  *  Muchos asteriscos: ```for i in range(num_asteriscos): print("*", end="")
+  *  Muchos espacios: ```for i in range(num_espacios): print(" ", end="")
+  *  Salto de línea: ```print()```
+* Ahora hay que decidir como inicializar las variables que controlan los bucles y como cambian en cada línea. En el mismo ejemplo de antes:
+  *  `num_asteriscos` empieza con 1 y cada vez que cambiemos de línea sumamos 1 (en cada lado)
+  *  `num_espacios` empieza con 2\*n - 2 (si n es la altura) y cada línea se decrementa en 2
+
+[[Ver código del cuadrado](códigos/t3e38.fig.cuadrado.py)]
+
+[[Ver código del triángulo 1](códigos/t3e39.fig.triángulo1.py)]
+
+[[Ver código del triángulo 2](códigos/t3e40.fig.triángulo2.py)]
+
+[[Ver código del triángulo 3](códigos/t3e41.fig.triángulo3.py)]
+
+[[Ver código del triángulo 4](códigos/t3e42.fig.triángulo4.py)]
