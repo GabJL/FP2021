@@ -45,3 +45,19 @@ En este caso no lo podemos controlar con el rango generado ya que no tiene un pa
 
 [[Ver código](códigos/t3e31.cortos_for4.py)]
 
+## Escribir 10 asteriscos
+*Escribir por pantalla 10 asteriscos*
+
+Sabemos escribir fácilmente un asterisco, pero hay que tener cuidado que como no queremos saltar de línea debemos indicarlo: `print("*", end="")`. Luego eso hay que repetirlo 10 veces y al saber cuántas veces se va a repetir lo más sencillo es utilizar el bucle determinista `for` (en la solución también se muestra con `while`). Lo que hay que conseguir que se repita 10 veces hay que crear una colección o rango de 10 valores (los valores realmente nos da igual). Por ejemplo, podemos usar: `range(10)`.
+
+[[Ver código](códigos/t3e32.10asteriscos.py)]
+
+## Sumar números
+*Sumar todos los números hasta el 1000*
+
+A diferencia del ejercicio anterior si estamos interesados en generar un rango concreto (los números del 1 al 1000). Eso es fácil con `range(1, 1001)` (recuerde que para que el 1000 esté en el rango debemos ir hasta el 1001). Luego, una vez tenemos los números que necesitamos sumarlos, para ello vamos a usar un acumulador. La forma de pensarla es lo siguiente:
+* Imaginemos que ya hemos tratado 15 números (del 1 al 15), ¿de esos 15 números que información nos interesa tener? Lo que nos interesa realmente no son los números sino la suma de todos ellos => variable `suma`
+* Muy bien, tenemos una variable que tiene la `suma` de todo lo anterior y tenemos un nuevo `número`, ¿cómo actualizamos las variables (especialmente la importante que es `suma`)? Pues simplemente la siguiente suma será la actual con el nuevo valor: `suma += número` (recuerde que eso es la forma compacta de `suma = suma + número`).
+* Finalmente nos queda decir los valores iniciales de la variable, ¿cuánto vale la `suma` al inicio? Pues si no hemos tratado ningún número, la `suma` debe valer 0.
+
+[[Ver código](códigos/t3e33.suma1000.py)]
