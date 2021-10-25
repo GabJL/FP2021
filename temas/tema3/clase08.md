@@ -61,3 +61,30 @@ A diferencia del ejercicio anterior si estamos interesados en generar un rango c
 * Finalmente nos queda decir los valores iniciales de la variable, ¿cuánto vale la `suma` al inicio? Pues si no hemos tratado ningún número, la `suma` debe valer 0.
 
 [[Ver código](códigos/t3e33.suma1000.py)]
+
+## Factorial
+*Realice un programa que lea un número y calcule el factorial. El factorial de un número n es n! = n*(n-1)*(n-2)*...*3*2*1. El factorial solo está definido para números positivos con el caso especial de que el factorial de 0 es 1 por definición (0! = 1).*
+
+Bastante similar al ejercicio previo pero ahora hay que generar números del 1 al n (incluido) y en vez de sumarlos hay que multiplicarlos.
+
+[[Ver código](códigos/t3e34.factorial.py)]
+
+## Es primo
+*Averiguar si un número dado es primo. Un número es primo si solo tiene como divisores al 1 y el mismo.*
+
+En este caso la idea es generar todos los números entre 1 y el número y comprobar cuántos son divisores del número. Si hay más de dos, no será primo
+
+[[Ver código](códigos/t3e35.primo1.py)]
+
+Una solución más eficiente es ir de 2 al número/2 y en cuanto encuentre un divisor paro y digo que no es primo, si llego al final sí es primo. En este caso al ser un bucle indetermiista hay que emplear un bucle `while`:
+
+[[Ver código](códigos/t3e36.primo2.py)]
+
+
+## Es perfecto
+*Averiguar si un número dado es perfecto. Un número es perfecto si la suma de sus divisores (sin incluirse) da el mismo número.*
+
+Muy similar al anterior (la versión del `for`) pero en vez de contar, va acumulando y el bucle no incluye el valor leído.
+
+[[Ver código](códigos/t3e37.perfecto.py)]
+
