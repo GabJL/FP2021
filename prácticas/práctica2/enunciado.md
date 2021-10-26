@@ -112,7 +112,7 @@ Los números ordenados son: 1 8 14
 
 *__OBJETIVOS:__ Uso de sentencias de selección anidadas (dependiendo del acercamiento) y condiciones complejas.*
 
-[[Ver solución](códigos/p2e06.horario.py)]
+[[Ver solución](códigos/p2e06.horario.py)]
 
 # p2e07.juego.py - Piedra, papel, tijera (lagarto, Spock) 
 *El juego “Piedra, Papel o Tijeras” es un juego que involucra a dos jugadores que deben elegir su jugada (elegir entre piedra, papel o tijeras) de forma independiente y oculta al otro jugador. Tras la elección, se hace una cuenta atrás y ambos jugadores muestran simultáneamente sus jugadas. El ganador se decide de acuerdo a las siguientes reglas:* 
