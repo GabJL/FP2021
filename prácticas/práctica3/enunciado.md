@@ -15,7 +15,7 @@
 
 *__OBJETIVOS:__ Realizar un bucle determinista (`for`) y usando un contador que depende de una condición.*
 
-[[Ver códigp]()]
+[[Ver códigp](códigos/p3e01.notas1.py)]
  
 ## [p3e02.notas2.py] (★✰✰✰✰) 
 *Haga una copia del programa previo y modifícalo para que calcule la nota media de los alumnos aprobados.  Ejemplo:*
@@ -32,7 +32,7 @@
 
 *__OBJETIVOS:__ Uso de acumuladores.*
  
-[[Ver códigp]()]
+[[Ver códigp](códigos/p3e02.notas2.py)]
 
 ## [p3e03.notas3.py] (★★★✰✰) 
 *Modifique el programa previo para que, en vez de ser un número fijo de notas, acabe cuando se introduzca una nota inválida (fuera del rango \[0,10\]). Ejemplo:*
@@ -59,7 +59,7 @@ while condición: # Si la nota es correcta
  Leer otra nota 
 ```
 
-[[Ver códigp]()]
+[[Ver códigp](códigos/p3e03.notas3.py)]
 
 ## [p3e04.notas4.py] (★★★✰✰) 
 *Modifique el programa previo para que almacene la mejor nota. Ejemplo:*
@@ -77,6 +77,8 @@ while condición: # Si la nota es correcta
 ```
  
 *__OBJETIVOS__: Cálculo de valores destacados.*
+
+[[Ver códigp](códigos/p3e04.notas4.py)]
 
 ## [p3e05.figura1.py] (★★★★✰) 
 *Realice un programa que lea una altura y nos dibuje la figura del ejemplo:*
@@ -98,7 +100,7 @@ while condición: # Si la nota es correcta
 * *Decida  cuántos  espacios  y  asteriscos  hay  en  la  primera  línea  (pruebe  diferentes  alturas  y  calcúlelos  y  luego intente sacar un valor general basado en la variable altura).*
 * *Observe como se modifican la cantidad de espacios y asteriscos al pasar de una línea a la siguiente*
 
-[[Ver códigp]()]
+[[Ver códigp](códigos/p3e05.figura1.py)]
 
 ## [p3e06.figura2.py] (★★★★✰) 
 *Modifique el programa anterior para que ahora dibuje la siguiente figura:*
@@ -119,7 +121,8 @@ while condición: # Si la nota es correcta
  
 *__NOTAS__: Divida la figura en dos sub-figuras y resuélvalos por separado.*
 
-[[Ver códigp]()]
+[[Ver códigp](códigos/p3e06.figura2.py)]
+
 
 ## [p3e07.mcm.py]  (★★★✰✰)  
 *Escribir  un  programa  para  hallar  el  valor  del  mcm  (mínimo  común  múltiplo)  de  dos números enteros positivos que se leen como entrada (n1 y n2). El mcm es el menor valor que es divisible entre los dos números. Ejemplo:* 
