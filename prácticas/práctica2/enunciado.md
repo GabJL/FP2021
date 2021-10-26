@@ -112,7 +112,7 @@ Los números ordenados son: 1 8 14
 
 *__OBJETIVOS:__ Uso de sentencias de selección anidadas (dependiendo del acercamiento) y condiciones complejas.*
 
-[Ver solución]
+[[Ver solución](códigos/p2e06.horario.py)]
 
 # p2e07.juego.py - Piedra, papel, tijera (lagarto, Spock) 
 *El juego “Piedra, Papel o Tijeras” es un juego que involucra a dos jugadores que deben elegir su jugada (elegir entre piedra, papel o tijeras) de forma independiente y oculta al otro jugador. Tras la elección, se hace una cuenta atrás y ambos jugadores muestran simultáneamente sus jugadas. El ganador se decide de acuerdo a las siguientes reglas:* 
@@ -175,7 +175,7 @@ jugCPU = random.choice(["Piedra","Papel","Tijera"])
 ```
 *__NOTA:__ La idea inicial del apartado b y c es hacerlos repitiendo manualmente (copiando y pegando y adaptando) el código varias veces, pero si te ves con soltura con los bucles puedes hacerlos con ellos directamente (el apartado d).*
 
-[Ver solución]
+[[Ver solución](códigos/p2e07.juego-a.py)]
 
 ## b) Versión 0.5 (★★★★★) 
 *Modifique el programa para que haga tres rondas y al final indique el tanteo del juego. La idea sería repetir la parte de elección de jugadas (tanto ordenador como jugador) y las decisiones 3 veces. Además, necesitará almacenar cuantas partidas ha ganado cada uno. El comportamiento esperado es el siguiente (todo es un 
@@ -209,12 +209,12 @@ jugCPU = random.choice(["Piedra","Papel","Tijera"])
  Enhorabuena, ¡has vencido a Skynet! 
 ```
  
-[Ver solución]
- 
+[[Ver solución](códigos/p2e07.juego-b.py)]
+
 ## c) Versión  0.8  (★★★★☆): 
 *Modifique  el  programa previo:  indique que  la  versión  es  la  0.8  (v0.8  en el  mensaje  de bienvenido)  y  que  no  se  juegue  la  tercera  ronda  en  caso  haber  un  vencedor  claro  (el  marcador  va  2-0  a  favor  de alguno). Para esto la última repetición completa debe meterla en una sentencia de selección.*
 
-[Ver solución]
+[[Ver solución](códigos/p2e07.juego-c.py)]
 
 ## d) Versión  1.0  (★★★★★):  
 *(Este  apartado  realmente  no  entra  en  la  práctica,  solo  inténtalo  si  recuerdas  bien  los bucles y estás aburrido): Coja el código del apartado a, modifique la versión a 1.0:*
@@ -223,4 +223,4 @@ jugCPU = random.choice(["Piedra","Papel","Tijera"])
 * *Si lo consigue, ¿podría cambiar en vez de ser al mejor de 3 sea al mejor de 5? ¿y 7?*
 * *¿Sabría hacer que apareciera el mensaje "Ronda X:" de forma apropiada en cada ronda?* 
 
-[Ver solución]
+[[Ver solución](códigos/p2e07.juego-d.py)]
