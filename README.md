@@ -6,6 +6,7 @@ En este repositorio se irán subiendo los códigos desarrollados durante la doce
 * [Tema 1](temas/tema1/indice.md): Conceptos básicos de Informática
 * [Tema 2](temas/tema2/indice.md): Variables
 * [Tema 3](temas/tema3/indice.md): Estructuras de control
+* [Tema 4](temas/tema4/indice.md): Subprogramas
 
 ## Clases
 * [Clase 1 (27/9)](temas/tema1/clase1.md): Conceptos de algoritmo y visión información de programación en python
@@ -16,7 +17,8 @@ En este repositorio se irán subiendo los códigos desarrollados durante la doce
 * [Clase 6 (18/10)](temas/tema3/clase06.md): Repaso de las sentencias de selección especialmente prestando atención a la sentencia de selección múltiple. También se empezó con la sentencia de repetición while.
 * [Clase 7 (20/10)](temas/tema3/clase07.md): Repaso del bucle `while` e introducción al `for`.
 * [Clase 8 (25/10)](temas/tema3/clase08.md): Seguimos trabajando con el bucle `for` (especialmente la función `range`) y hacemos ejercicios: cambiando los rangos del bucle, ejercicios de figuras y ejercicios cortos (entre los que se incluye el factorial, si un número es primo o si un número es perfecto).
-
+* [Clase 9a (26/10)](temas/tema3/clase09.md): Ejercicios avanzados de bucles: primer y último 12. Resolución del parcial del curso pasado.
+* [Clase 9b (26/10)](temas/tema4/clase09.md): Introducción a los subprogramas
 
 ## Prácticas
 * [Práctica 1](prácticas/práctica1/enunciado.md): Repasar conceptos básicos de python como son los identificadores, las variables, los tipos o el uso de expresiones básicas.
