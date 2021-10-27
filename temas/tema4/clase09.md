@@ -6,6 +6,6 @@ En esta clase se introdujo la necesidad de dividir el código en pequeños trozo
 
 La idea es hacer el cálculo de un número combinatorio que es la división entre m! y n!\*(m-n)! Como se observa se necesitan calcular 3 veces el factorial de diferentes valores y entonces crear una trozo de código que lo calcule y lo podamos reutilizar facilita mucho realizar el programa.
 
-[[Ver código sin funciones](códigs/t4e01.combinatorio1.py)]
+[[Ver código sin funciones](códigos/t4e01.combinatorio1.py)]
 
-[[Ver código con funciones](códigs/t4e01.combinatorio1.py)]
+[[Ver código con funciones](códigos/t4e02.combinatorio2.py)]
