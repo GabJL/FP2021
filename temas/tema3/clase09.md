@@ -45,14 +45,14 @@ Esto es un ejemplo de ejercicio avanzado que, salvo que se tenga experiencia, ha
 *.*.*.*.*.*.
 ```
 
-[[Ver código](códigos/t3e45.parcial_e3.py)]
+[[Ver código](códigos/t3e46.parcial_e3.py)]
 
 ### Ejercicio 4
 *Hacer un programa 04.mcd.py que pida 2 números enteros al usuario (a y b). Calcular el máximo común divisor de ambos. Para ello encontrar el menor de los dos, menor, y recorrer hacia abajo hasta encontrar el número que los divide a ambos. Si no lo hubiera terminaría en 1, que siempre divide. Por ejemplo: 15, 9 → 3; 8, 4 → 4; 3, 3 → 3*
 
-[[Ver código](códigos/t3e46.parcial_e4.py)]
+[[Ver código](códigos/t3e47.parcial_e4.py)]
 
 ### Ejercicio 5
 *Hacer un programa 05.simplifica.py que pida 2 números enteros al usuario (a y b). Se supone que son el numerador y denominador de una fracción (a/b). Calcular el máximo común divisor de los dos números. Escribir después la fracción simplificada, por ejemplo: 15/9 → 5/3; 8/4 → 2/1. Para puntuar este problema tiene que funcionar también el anterior.*
 
-[[Ver código](códigos/t3e47.parcial_e5.py)]
+[[Ver código](códigos/t3e48.parcial_e5.py)]
