@@ -3,14 +3,14 @@
 Uso de sentencias de repetición (while y for) en python. 
 
 ## p4e01.orden.py (★✰✰✰✰) 
-*Escriba un programa que lea de forma continua tres valores hasta que los tres números sean valores __estrictamente__ crecientes. Ejemplo:*
+*Escriba un programa que lea de forma continua tres valores hasta que los tres números sean valores __estrictamente__ crecientes. Ejemplo (Suponga que tras cada número hay un INTRO):*
 
 ```
-Diga tres numeros crecientes: 20 22 19
-Diga tres numeros crecientes: 2 0 4
-Diga tres numeros crecientes: -1 2 2
-Diga tres numeros crecientes: 38 50 77
-Gracias!
+Diga tres números crecientes: 20 22 19
+Diga tres números crecientes: 2 0 4
+Diga tres números crecientes: -1 2 2
+Diga tres números crecientes: 38 50 77
+¡Gracias!
 ```
 
 *__OBJETIVOS:__ Realizar un bucle indeterminista simple.*
