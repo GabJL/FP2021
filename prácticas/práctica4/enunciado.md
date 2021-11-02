@@ -15,7 +15,7 @@ Diga tres números crecientes: 38 50 77
 
 *__OBJETIVOS:__ Realizar un bucle indeterminista simple.*
 
-[[Ver código]()]
+[[Ver código](códigos/p4e01.orden.py)]
 
 ## p4e02.primo.py (★★★✰✰) 
 *Escribir un programa que lea por teclado un número natural y muestre por pantalla Si el número es primo o no. Dos ejemplos:*
@@ -32,7 +32,7 @@ El número 26 no es primo
 
 *__OBJETIVOS:__ Uso del bucle `for` y contadores.*
 
-[[Ver código]()]
+[[Ver código](códigos/p4e02.primo.py)]
 
 ## p4e03.primos2.py (★★★★✰) 
 *Haga una copia del programa del ejercicio anterior y modifícalo de la siguiente forma: lea dos valores y muestre todos los primos en el rango (no debe suponer que los valores estén ordenados). Ejemplo:*
@@ -46,7 +46,7 @@ Los primos en el rango son 2 3 5 7
 
 *__OBJETIVOS:__ Bucle anidados.*
 
-[[Ver código]()]
+[[Ver código](códigos/p4e03.primos2.py)]
 
 ## p4e04.figura.py (★★✰✰✰) 
 *Realice un programa que lea un número y nos dibuje un cuadrado hueco similar al mostrado en el siguiente ejemplo:*
@@ -63,7 +63,7 @@ XXXXX
 
 *__OBJETIVOS:__ Bucles anidados y ser capaz de dividir el problema en partes y resolverlas por separado*
 
-[[Ver código]()]
+[[Ver código](códigos/p4e04.figura.py)]
 
 ## p4e05.whatsapp.py (★★★✰✰) 
 *En Whatsapp hay dos tipos de personas como se muestran en las siguientes capturas (bueno hay un tercer tipo que escribe de la forma: “OLA K ASE? X AKI TODO VIEN”, pero a estos directamente los ignoraremos):*
@@ -88,7 +88,7 @@ ejercicios
 
 *__OBJETIVOS:__ Lectura de letras (incluyendo separadores). Trabajo con letras especiales (espacios, salto de línea).*
 
-[[Ver código]()]
+[[Ver código](códigos/p4e05.whatsapp.py)]
 
 ## p4e06.suma_digitos.py (★★★★★) 
 *Escribir un algoritmo que lea por teclado un número natural y muestre por pantalla la suma de todos sus dígitos. Ejemplo:*
