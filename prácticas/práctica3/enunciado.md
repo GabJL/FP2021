@@ -137,7 +137,7 @@ El mcm es 60
  
 *__NOTA__:  Haga  un  bucle  que  vaya  generando  números  cada  vez  más  grandes  hasta  encontrar  uno  que  cumpla  la condición.*
 
-[[Ver códigp]()]
+[[Ver códigp](códigos/p3e07.mcm.py)]
 
 ## [p3e08.menor.py] (★★★★✰) 
 *Realice un programa que le pida al usuario la cantidad de valores a introducir (N) y lea N valores enteros y nos indique cuál es el menor valor leído. Puede suponer que N es al menos 1. Tenga cuidado con el valor que asigna al menor inicialmente (los números leídos pueden ser cualquiera). Ejemplo:*
@@ -155,7 +155,7 @@ El mcm es 60
  
 *__OBJETIVOS__: Cálculo de valores singulares (mínimo) en un bucle determinista.*
 
-[[Ver códigp]()]
+[[Ver códigp](códigos/p3e08.menor.py)]
 
 ## [p3e09.pitágoras.py] (★★★★★) 
 *Un triplete pitagórico es aquel que cumple: a\*a = b\*b + c\*c. Pida por teclado un número natural n (el tipo) al usuario y probar que valores de a, b y c (con valores entre 1 y n) cumplen la ecuación anterior. Imprima los tripletes que cumplan la condición. Ejemplo:*
@@ -173,7 +173,7 @@ El mcm es 60
  
 *__NOTA__: La solución más simple requiere tres bucles anidados, una por variable, y dentro de los 3 bucles, una sentencia de selección que valide si cumplen o no la ecuación. Observe que los valores se ven limitados por los elegidos en las otras variables, esto es, mientras la a puede tomar valor entre 1 a n, luego la b solo podrá tomar valores entre 1 y a (sin incluirla) y la c solo entre 1 y b (sin incluirla).*
 
-[[Ver códigp]()]
+[[Ver códigp](códigos/p3e09.pitágoras.py)]
 
 ## [p3e10.adivina.py]  (★★★★★)  
 *El juego “Adivina un número” es un juego que involucra a dos jugadores. Uno de ellos (jugador1) piensa un número y el otro (jugador2) intenta adivinarlo. Para adivinarlo, el jugador2 dice el número que cree que es y el jugador1 (el que sabe el número) le dice si acertó o en caso contrario si el número pensado es mayor o menor. Normalmente el número de intentos está limitado.*
@@ -209,8 +209,8 @@ num_secretao = random.randint(1, 100)
  ¡Enhorabuena, ha acertado! 
 ```
 
-[[Ver códigp]()]
+[[Ver códigp](códigos/p3e10.adivina.py)]
 
 *b) Modifique el programa para que permita como mucho 5 intentos.*
 
-[[Ver códigp]()]
+[[Ver códigp](códigos/p3e10.adivinab.py)]
