@@ -19,6 +19,7 @@ En este repositorio se irán subiendo los códigos desarrollados durante la doce
 * [Clase 8 (25/10)](temas/tema3/clase08.md): Seguimos trabajando con el bucle `for` (especialmente la función `range`) y hacemos ejercicios: cambiando los rangos del bucle, ejercicios de figuras y ejercicios cortos (entre los que se incluye el factorial, si un número es primo o si un número es perfecto).
 * [Clase 9a (26/10)](temas/tema3/clase09.md): Ejercicios avanzados de bucles: primer y último 12. Resolución del parcial del curso pasado.
 * [Clase 9b (26/10)](temas/tema4/clase09.md): Introducción a los subprogramas
+* [Clase 10 (3/11)](temas/tema4/clase10.md): Creación de funciones y procedimientos. Ejercicios
 
 ## Prácticas
 * [Práctica 1](prácticas/práctica1/enunciado.md): Repasar conceptos básicos de python como son los identificadores, las variables, los tipos o el uso de expresiones básicas.
