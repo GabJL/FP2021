@@ -6,9 +6,9 @@ En esta clase seguimos avanzando en el tema de la funciones y haciendo ejercicio
 
 Para mostrar las ventajas del uso funciones a la hora de simplificar el código, se hizo el ejercicio 3 de la práctica 4 donde se pide mostrar los números primos en un rango.
 
-[[Solución sin funciones]()]
+[[Solución sin funciones](códigos/t4e03.primos1.py)]
 
-[[Solución con funciones]()]
+[[Solución con funciones](códigos/t4e04.primos2.py)]
 
 ## Cilindro 
 
