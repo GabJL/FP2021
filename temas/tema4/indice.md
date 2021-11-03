@@ -7,4 +7,5 @@
 
 # Clases
 * [Clase 9 (26/10)](clase09.md): Introducción a los subprogramas
+* [Clase 10 (3/11)](clase10.md): Creación de funciones y procedimientos. Ejercicios
 
