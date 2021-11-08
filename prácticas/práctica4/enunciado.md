@@ -105,7 +105,7 @@ La suma de los dígitos es 9
 
 *__OBJETIVOS:__ Diseño de algoritmos con bucles que requieren pensar. Bucles cuya condición dependen de cálculos.*
 
-[[Ver código]()]
+[[Ver código](códigos/p4e06.suma_digitos.py)]
 
 ## p4e07.amigos.py (★★★✰✰) 
 *Dos números son amigos cuando la suma de los divisores de uno es igual al otro y viceversa. Realice un programa que pida dos números y diga si son amigos.*
@@ -118,7 +118,7 @@ Los números 220 y 284 son amigos.
 
 *__OBJETIVOS:__ Repaso de bucles deterministas, pero teniendo que pensar un poco.*
 
-[[Ver código]()]
+[[Ver código](códigos/p4e07.amigos.py)]
 
 ## p4e08.suma_serie.py (★★★★✰) 
 *Hace un programa que dada una secuencia de números naturales leída de teclado y terminada en 0, averiguar si existe un elemento cuyo valor coincide con la suma de los que le proceden. Por ejemplo, la secuencia `1, 1, 2, 5, 0` satisface la propiedad, sin embargo, la secuencia `1, 3, 1, 2, 0` no la satisface.*
@@ -139,7 +139,7 @@ La secuencia sí cumple la propiedad
 
 *__OBJETIVOS:__ Uso de centinelas y acumuladores.*
 
-[[Ver código]()]
+[[Ver código](códigos/p4e08.suma_serie.py)]
 
 ## p4e09.fibonacci.py (★★★★★) 
 *La serie de Fibonacci es una conocida serie matemática que partiendo de los valores: 1 y 1, va generando los siguientes valores sumando los dos anteriores. Así, el siguiente será 2 (1+1), el siguiente 3 (1+2), luego 5 (2+3) … A continuación, se muestra con se calculan:*
@@ -164,4 +164,4 @@ Los primeros 20 números de la serie de Fibonacci son: 1 1 2 3 5 8 13 21 34 55 8
 
 *__OBJETIVOS:__ Trabajar con varios valores previos y su correcta actualización*
 
-[[Ver código]()]
+[[Ver código](códigos/p4e09.fibonacci.py)]
