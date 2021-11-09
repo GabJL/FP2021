@@ -24,4 +24,4 @@ Aquí se muestra el código de los apartado b-d de la página 18 y el a de la p�
 # División de código
 *Lea un número natural (n1) entre 1 y 20 (si no está en el rango volverá a pedirlo). Luego vuelva a leer otro número natural (n2) entre n1 y 100. A continuación escribirá todos los primos entre n1 y n2*
 
-[[Ver solución](códigos/t4e08.división_de_código.py)]
+[[Ver solución](códigos/t4e8.división_de_código.py)]
