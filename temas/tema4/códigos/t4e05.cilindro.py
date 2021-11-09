@@ -20,3 +20,4 @@ r = float(input("Indique el radio: "))
 h = float(input("Indique la altura: "))
 
 print("El área del cilindro es", área_cilindro(r,h))
+print("El volumen del cilindro es", volumen_cilindro(r,h))
