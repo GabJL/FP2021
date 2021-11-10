@@ -29,3 +29,4 @@ En este repositorio se irán subiendo los códigos desarrollados durante la doce
 * [Práctica 4](prácticas/práctica4/enunciado.md): Sentencias de repetición (II).
 
 ## Examenes
+* [Parcial 1](exámenes/c1.GIS.1A.2001.md): Primer parcial.
