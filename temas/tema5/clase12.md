@@ -27,7 +27,7 @@ En este caso se ofrecen varias alternativas:
 
 [[Ver código](códigos/t5e04.menor.py)]
 
-## Ejercicio de recorridos (III): Posición del menor
+## Ejercicio de recorridos (III): Posición del menor
 *Codifique una función que devuelva la posición que ocupa el menor valor de una lista*
 
 [[Ver código](códigos/t5e05.posición_menor.py)]
