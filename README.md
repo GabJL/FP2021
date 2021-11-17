@@ -22,7 +22,8 @@ En este repositorio se irán subiendo los códigos desarrollados durante la doce
 * [Clase 9b (26/10)](temas/tema4/clase09.md): Introducción a los subprogramas
 * [Clase 10 (3/11)](temas/tema4/clase10.md): Creación de funciones y procedimientos. Ejercicios
 * [Clase 11 (8/11)](temas/tema4/clase11.md): Funciones que devuelven varios valores. Ámbitos. Ejercicios
-* [Clase 12 (15/11)](temas/tema5/clase12.md): Concepto de lista, recorridos y crear/modificar listas
+* [Clase 12 (15/11)](temas/tema5/clase12.md): Concepto de lista y recorridos sobre listas
+* [Clase 13 (16/11)](temas/tema5/clase13.md): Modificación de listas
 
 ## Prácticas
 * [Práctica 1](prácticas/práctica1/enunciado.md): Repasar conceptos básicos de python como son los identificadores, las variables, los tipos o el uso de expresiones básicas.
