@@ -37,3 +37,15 @@ En esta clase nos hemos centrado en las operaciones para crear/modificar listas.
 *Función que dado un vector nos devuelva otro solo con los valores positivos.*
 
 [[Ver código](códigos/t5e12.solo_positivos.py)]
+
+## Ejecicicio complejo (I): ordenada?
+
+*Realice una función que nos diga si una lista está ordenada o no*
+
+[[Ver código](códigos/t5e13.esta_ordenada.py)]
+
+## Ejecicicio complejo (II): Unir comunes sin repeticiones
+
+*Realice una función que reciba dos listas y nos devuelva otra con los valores comunes y sin repetir*
+
+[[Ver código](códigos/t5e14.comunes_sin_repeticiones.py)]
