@@ -5,4 +5,5 @@
 4. Búsqueda y filtro
 
 ## Clases
-* [Clase 12 (15/11)](clase12.md): Concepto de lista, recorridos y crear/modificar listas
+* [Clase 12 (15/11)](clase12.md): Concepto de lista y recorridos sobre listas
+* [Clase 13 (16/11)](clase13.md): Modificación de listas
