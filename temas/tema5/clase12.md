@@ -1,6 +1,6 @@
 # Clase 12 (15/11/21)
 
-En esta clase empezamos el tema 5 y hemos visto el concepto de lista, cómo crearla, recorrer sus valores (tanto completamente como parcialmente) y cómo modificarla.
+En esta clase empezamos el tema 5 y hemos visto el concepto de lista, cómo crearla y recorrer sus valores (tanto completamente como parcialmente).
 
 ## Ejemplos iniciales de recorridos completos
 *Escribir solo los valores positivos de una lista y sumar todos sus valores*
