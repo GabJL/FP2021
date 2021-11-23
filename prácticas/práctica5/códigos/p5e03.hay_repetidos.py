@@ -9,7 +9,7 @@ def hayRepes(l):
     i=0
     repetido = False
     while i < len(l) and not repetido:
-        if contar(l, l[i]):
+        if contar(l, l[i]) > 1:
             repitido = True
         i += 1
     return repitido
