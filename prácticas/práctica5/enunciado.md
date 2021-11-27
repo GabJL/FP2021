@@ -46,7 +46,7 @@
 
 *__OBJETIVOS__: Diseño de algoritmos.*
 
-[[Ver Código](códigos/p5e06.purga.py)]
+[[Ver Código](códigos/p5e06.purga_.py)]
 
 ## p5e07.intersección.py (★★★★✰) 
 
@@ -54,7 +54,7 @@
 
 *__OBJETIVOS__: Diseño de algoritmos.*
 
-[[Ver Código](códigos/p5e07.intersección.py)]
+[[Ver Código](códigos/p5e07.intersección_.py)]
 
 ## p5e08.nombres.py (★★★★★) 
 *Dado el siguiente listado de nombres:*
@@ -82,4 +82,4 @@ alumnos = ["Inas", "Christian", "Mael", "Yussef", "Yasir", "Rosa", "Juan", "Mart
 ```
 *__OBJETIVOS__: Desarrollo de programa completo largo y con uso de funciones.*
 
-[[Ver Código](códigos/p5e08.nombres.py)]
+[[Ver Código](códigos/p5e08.nombres_.py)]
