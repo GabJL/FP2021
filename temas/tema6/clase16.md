@@ -50,8 +50,8 @@ Resolución de ejercicios de examen.
 
 *Hacer un programa para que comprueba si dos secuencias de nucleótidos pueden formar una doble hélice. Ambas cadenas se suponen recibidas “up-down” y sabemos que los nucleótidos se parean siempre A con T y C con G, de forma que tenemos que invertir una y comprobar su concordancia con la otra. No olvidar comprobar antes de empezar que ambas secuencias tienen también la misma longitud. Por ejemplo:*
 ```python
-seq1 = “GCGCT” 
-seq2 = “AGCGC”
+seq1 = "GCGCT" 
+seq2 = "AGCGC"
 print(checkDNA(seq1, seq2)) # Devolvería True
 ```
 *Ya que: GCGCT (seq1) se empareja con CGCGA (inversión de seq2).*
