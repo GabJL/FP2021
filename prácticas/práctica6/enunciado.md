@@ -5,28 +5,28 @@
 
 *__OBJETIVOS__: Función simple y uso simple de `split`.*
 
-[[Ver Código](códigos/p6e00.XXX.py)]
+[[Ver Código](códigos/p6e01.str2list.py)]
 
 ## p6e02.suma.py (★✰✰✰✰) 
 *Hacer una función def `strSum()` que recibiendo un texto con números separados por comas, nos devuelva la suma de todos los valores. Copie y use la función `str2list()` del ejercicio previo. Por ejemplo `strSum("19.2, -8.02, 3")` devolvería la lista `11.18`.*
 
 *__OBJETIVOS__: Recorridos completos sobre listas y uso de funciones.*
 
-[[Ver Código](códigos/p6e00.XXX.py)]
+[[Ver Código](códigos/p6e02.suma.py)]
 
 ## p6e03.lluvias.py (★★✰✰✰) 
 *Una cadena tiene el siguiente formato `"Málaga: 0, 2.1, 1, 0, 0, 3.5, 1.1"` correspondiente a la situación a las lluvias diarias a lo largo de un periodo de tiempo. Hacer una función que recibiendo una de tales cadenas nos calcule y devuelva la media de lluvia diaria en ese periodo. Para la cadena anterior debería devolver `1.1`. Use las funciones de los apartados previos.*
 
 *__OBJETIVOS__: Usos de varias divisiones del texto.*
 
-[[Ver Código](códigos/p6e00.XXX.py)]
+[[Ver Código](códigos/p6e03.lluvias.py)]
 
 ## p6e04.iguales.py (★✰✰✰✰) 
 *Hacer función `def iguales(a, b)` que compare dos cadenas sin importar si las letras están en mayúsculas o minúsculas. Devolver True cuando las cadenas sean iguales y False cuando haya alguna letra diferente sin importar si está en mayúsculas o minúsculas. Para este ejercicio usar `s.upper()` que pasa la cadena entera a mayúsculas, de manera que pasamos ambas a mayúsculas dentro de la función `def iguales(a, b)` antes de compararlas.*
 
 *__OBJETIVOS__: Uso de operaciones de string.*
  
-[[Ver Código](códigos/p6e00.XXX.py)]
+[[Ver Código](códigos/p6e04.iguales.py)]
 
 ## pe05.posiciones.py (★★★✰✰) 
 *Suponer que tenemos la secuencia de aminoácidos: `seq = 'ATCCATTCGACTCCACACAGCTAGCGTGGCACTTTCACGACATCTAAACGAAAGGTCTCG'` hacer la función `def posACGT(seq, nuc)` que devuelva una lista de las posiciones en `seq` del nucleótido `nuc`. Por ejemplo, `print(posACGT(seq, 'A'))` debería devolver: `[1, 5, 10, 15, 17, 19, 23, 31, 37, 40, 42, 46, 47, 48, 51, 52, 53]`*
@@ -35,7 +35,7 @@
 
 *__OBJETIVOS__: Recorrido por índice de un texto.*
 
-[[Ver Código](códigos/p6e00.XXX.py)]
+[[Ver Código](códigos/pe05.posiciones.py)]
 
 ## p6e06.clave.py (★★★✰✰) 
 *Durante un examen, un alumno se desmaya debido al estrés y lo llevamos al hospital más cercano. Allí nos pide `"Apellidos, nombre – año"` de nacimiento del estudiante escritos de esa forma. Nos mandan con una papeleta con un código a la sala de espera a ver la pantalla de turnos. En la papeleta aparecen las iniciales (primera letra del nombre seguido de la primera letra de cada apellido) y los dos últimos dígitos del año. ¿Podrías construir una función que haga eso: recibir el texto con ese formato y devolver el código de la papeleta? Así, por ejemplo: `"Tenorio Fernández, Walter – 2001"` devolvería: `WTF01`.*
