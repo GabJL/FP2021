@@ -84,7 +84,7 @@ Hacer una función que reciba un nombre completo de fichero UNIX del tipo: `"/Us
 
 *En el campus virtual se ofrece un código inicial para el juego (descomprima el fichero y meta todo el contenido en la misma carpeta).*
 
-*En primer lugar realice una función `def esta(texto, l)` que nos devuelve `True` si `l` es una letra del abecedario y si la letra `l` aparece dentro del texto (independientemente si aparece en mayúscula o minúscula).*
+*En primer lugar realice una función `def esta(texto, l)` que nos devuelve `True` si `l` no es una letra del abecedario o si la letra `l` aparece dentro del texto (independientemente si aparece en mayúscula o minúscula).*
 
 *Luego desarrolle `def codificar(secreta, letras)` que genere un texto con el mismo contenido que secreta pero donde se reemplacen las letras del abecedario (a-z) con guiones bajos si no están en el texto letras. Use la función `esta()`. Por ejemplo `codificar("Star wars 1", "sa")` devolvería el texto `"S_a_ _a_s 1"`.*
 
