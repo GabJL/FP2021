@@ -35,21 +35,21 @@
 
 *__OBJETIVOS__: Recorrido por índice de un texto.*
 
-[[Ver Código](códigos/pe05.posiciones.py)]
+[[Ver Código](códigos/p6e05.posiciones.py)]
 
 ## p6e06.clave.py (★★★✰✰) 
 *Durante un examen, un alumno se desmaya debido al estrés y lo llevamos al hospital más cercano. Allí nos pide `"Apellidos, nombre – año"` de nacimiento del estudiante escritos de esa forma. Nos mandan con una papeleta con un código a la sala de espera a ver la pantalla de turnos. En la papeleta aparecen las iniciales (primera letra del nombre seguido de la primera letra de cada apellido) y los dos últimos dígitos del año. ¿Podrías construir una función que haga eso: recibir el texto con ese formato y devolver el código de la papeleta? Así, por ejemplo: `"Tenorio Fernández, Walter – 2001"` devolvería: `WTF01`.*
 
 *__OBJETIVOS__: Dividir textos y coger partes.*
 
-[[Ver Código](códigos/p6e00.XXX.py)]
+[[Ver Código](códigos/p6e06.clave.py)]
 
 ## p6e07.primer_numero.py (★★★★✰) 
 *Hacer una función que reciba una cadena como la siguiente: `"Mañana a las -10.5 o a las 11-"` y que devuelva el primer número entero que encuentre en ella, en el ejemplo: `10`.*
 
 *__OBJETIVOS__: Diseño de algoritmos.*
 
-[[Ver Código](códigos/p6e06.clave.py)]
+[[Ver Código](códigos/p6e07.primer_numero.py)]
 
 ## p6e08.paths.py (★★★★✰) 
 Hacer una función que reciba un nombre completo de fichero UNIX del tipo: `"/Users/minombre/Desktop/p6e08.paths.py"` y devuelva sus tres componentes: path (`"/Users/minombre/Desktop"`), nombre del fichero (`"p6e08.paths"`) y extensión (`"py"`).*
