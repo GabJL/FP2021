@@ -28,7 +28,7 @@
  
 [[Ver Código](códigos/p6e04.iguales.py)]
 
-## pe05.posiciones.py (★★★✰✰) 
+## p6e05.posiciones.py (★★★✰✰) 
 *Suponer que tenemos la secuencia de aminoácidos: `seq = 'ATCCATTCGACTCCACACAGCTAGCGTGGCACTTTCACGACATCTAAACGAAAGGTCTCG'` hacer la función `def posACGT(seq, nuc)` que devuelva una lista de las posiciones en `seq` del nucleótido `nuc`. Por ejemplo, `print(posACGT(seq, 'A'))` debería devolver: `[1, 5, 10, 15, 17, 19, 23, 31, 37, 40, 42, 46, 47, 48, 51, 52, 53]`*
 
 *__NOTA__: Observe que ahora no solo nos interesa el valor sino también la posición. Use el bucle adecuado para esto.*
