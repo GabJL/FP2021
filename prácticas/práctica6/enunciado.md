@@ -49,7 +49,7 @@
 
 *__OBJETIVOS__: Diseño de algoritmos.*
 
-[[Ver Código](códigos/p6e00.XXX.py)]
+[[Ver Código](códigos/p6e06.clave.py)]
 
 ## p6e08.paths.py (★★★★✰) 
 Hacer una función que reciba un nombre completo de fichero UNIX del tipo: `"/Users/minombre/Desktop/p6e08.paths.py"` y devuelva sus tres componentes: path (`"/Users/minombre/Desktop"`), nombre del fichero (`"p6e08.paths"`) y extensión (`"py"`).*
@@ -58,7 +58,7 @@ Hacer una función que reciba un nombre completo de fichero UNIX del tipo: `"/Us
 
 *__OBJETIVOS__: Uso conjunto de `split` y `join`.*
 
-[[Ver Código](códigos/p6e00.XXX.py)]
+[[Ver Código](códigos/p6e08.paths.py)]
 
 ## p6e09.sufijo.py (★★★★★) 
 *Hacer una que reciba dos secuencias de aminoácidos y nos indique el solapamiento entre ellas. Se define el solapamiento como el número de aminoácidos del final de la primera secuencia que son iguales que el inicio de la segunda. Algunos ejemplos son:*
@@ -74,7 +74,7 @@ Hacer una función que reciba un nombre completo de fichero UNIX del tipo: `"/Us
 
 *__OBJETIVOS__: Diseño de programas complejos.*
 
-[[Ver Código](códigos/p6e00.XXX.py)]
+[[Ver Código](códigos/p6e09.sufijo.py)]
 
 ## p6e10.ahorcado.py (★★★★★) 
 *El Ahorcado es un juego de adivinanzas. El ordenador  selecciona  una  frase  (en  este caso títulos de películas/series) y el jugador trata de adivinarla según lo que sugiere por letras. Si el jugador sugiere una letra que aparece en la palabra, el ordenador escribe en todas sus apariciones en sus posiciones correctas.  Si la letra sugerida no ocurre en la palabra, el otro jugador saca un elemento de la figura de hombre palo ahorcado como una marca de conteo. El juego termina cuando:* 
@@ -104,7 +104,7 @@ Hacer una función que reciba un nombre completo de fichero UNIX del tipo: `"/Us
 6.	*Si no ganó: borre la pantalla y muestre el muñeco de palo ya completo*
 7.	*Muestre el título de la película a adivinar*
 
-[[Ver Código](códigos/p6e00.XXX.py)]
+[[Ver Código](códigos/p6e10.ahorcado.py)]
 
 ## p6e11.suma10.py (★★★★✰) 
 *Lea una secuencia de números positivos y compruebe si hay dos números consecutivos que sumen 10. Por ejemplo, con la secuencia `11 3 7 5 -1` diría sí mientras que con `0 0 2 3 -2` diría no.*
