@@ -5,3 +5,4 @@
 3. Ejemplos
 
 # Clases
+* [Clase 17 (13/12)](clase17.md): Concepto y uso de diccionarios.
