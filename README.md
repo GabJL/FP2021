@@ -30,6 +30,7 @@ En este repositorio se irán subiendo los códigos desarrollados durante la doce
 * [Clase 14 (22/11)](temas/tema6/clase14.md): El tipo string, operaciones sobre string y dividir en trozos.
 * [Clase 15 (29/11)](temas/tema6/clase15.md): La operación join sobre string y el formateo de string. Ejercicios.
 * [Clase 16 (30/11)](temas/tema6/clase16.md): Ejercicios de repaso (ejercicios de examen).
+* [Clase 17 (13/12)](temas/tema7/clase17.md): Concepto y uso de diccionarios.
 
 ## Prácticas
 * [Práctica 1](prácticas/práctica1/enunciado.md): Repasar conceptos básicos de python como son los identificadores, las variables, los tipos o el uso de expresiones básicas.
