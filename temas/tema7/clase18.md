@@ -23,4 +23,6 @@ pagos = [
 
 ## Ejercicio 2: Spotify
 
-[[Ver solución](códigos/t7e06.spotify.py)]
+[Enunciado](https://informatica.cv.uma.es/mod/resource/view.php?id=421401)
+
+[[Ver solución](códigos/info_spotify.py)]
