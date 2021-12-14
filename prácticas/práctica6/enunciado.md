@@ -109,17 +109,17 @@ Hacer una función que reciba un nombre completo de fichero UNIX del tipo: `"/Us
 ## p6e11.suma10.py (★★★★✰) 
 *Lea una secuencia de números positivos y compruebe si hay dos números consecutivos que sumen 10. Por ejemplo, con la secuencia `11 3 7 5 -1` diría sí mientras que con `0 0 2 3 -2` diría no.*
 
-[[Ver Código](códigos/p6e00.XXX.py)]
+[[Ver Código](códigos/p6e11.suma10.py)]
 
 ## p6e12.cantidad_primos.py (★★★✰✰) 
 *Hacer un programa que pida números enteros al usuario hasta leer el `1`. Después de esto, el programa debe escribir la cuenta de cuántos números fueron primos. Por ejemplo, con `12 2 13 4 1` sería `2`. Se recomienda hacer una función que valide si un número es primo o no.*
 
-[[Ver Código](códigos/p6e00.XXX.py)]
+[[Ver Código](códigos/p6e12.cantidad_primos.py)]
 
 ## p6e13.suma_alternada.py (★★★✰✰) 
 *Realice una función que reciba una lista y nos devuelva dos valores: por un lado, la suma de los números en posiciones pares de la lista y por otro la suma de los números en posiciones impares de la lista.*
 
-[[Ver Código](códigos/p6e00.XXX.py)]
+[[Ver Código](códigos/p6e13.suma_alternada.py)]
 
 ## p6e14.distancia.py (★★★★✰) 
 *Hacer un programa que dada una secuencia de aminoácidos devuelva la mayor distancia entre dos posiciones del nucleótido pasara por parámetro. Por ejemplo:*
@@ -129,9 +129,9 @@ Hacer una función que reciba un nombre completo de fichero UNIX del tipo: `"/Us
 *	*Para `"A"` y `"A"` devolvería -1*
 *	*Para `"CT"` y `"A"` devolvería -1*
 
-[[Ver Código](códigos/p6e00.XXX.py)]
+[[Ver Código](códigos/p6e14.distancia.py)]
 
 ## p6e15.edad.py (★★★✰✰) 
 *Lea una línea de teclado con el formato: `"nombre: año_nac, edad_muerte"` y nos devuelva el texto: `"nombre vivió desde X hasta Y"`.*
 
-[[Ver Código](códigos/p6e00.XXX.py)]
+[[Ver Código](códigos/p6e15.edad.py)]
