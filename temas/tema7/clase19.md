@@ -9,10 +9,12 @@ En este clase vimos cómo calcular el mínimo valor (o clave) de un diccionario.
 Málaga = {"enero": 12, "febrero": 12, "marzo": 14, "abril": 16, "mayo": 19, "junio": 23, "julio": 26, "agosto": 26,"septiembre": 23, "octubre": 19, "noviembre": 15, "diciembre": 13}
 Yakustk = {"enero": -38, "febrero": -34, "marzo": -20, "abril": -5, "mayo": 8, "junio": 16, "julio": 20, "agosto": 15, "septiembre": 6, "octubre": -8, "noviembre": -27, "diciembre": -37}
 ```
-[[Ver solución](códigos/t7eXXX.py)]
+[[Ver solución](códigos/t7e06.valor_may.py)]
 
 ## Ejercicio 2: Valor del máximo: 
 *Modifique el anterior para obtener el nombre del mes que tiene la temperatura máxima.*
+
+[[Ver solución](códigos/t7e07.clave_del_max.py)]
 
 ## Ejercicio 3: Diccionarios de listas: 
 *La tasa de éxito de una asignatura mide el número de alumnos que superan una asignatura respecto al número de alumnos que se presentan a la asignatura. Dado un diccionario con las asignaturas como claves y que tienen como valor la tasa de éxito de los últimos años, realice un programa que escriba para cada asignatura la tasa de éxito media de esos años. Ejemplos (datos oficiales extraídos de la página de calidad de la UMA).*
@@ -26,7 +28,7 @@ Salud = {
   "Álgebra lineal": [66.27, 68.67, 49.28, 57.45]}
 ```
 
-[[Ver solución](códigos/t7eXXX.py)]
+[[Ver solución](códigos/t7e08.tasas.py)]
 
 # Ejercicio 4 (Películas): Pasar texto a diccionario: 
 *Realice una función que reciba un texto que tiene información de una película a un diccionario con esa información. El formato del texto es:*
@@ -55,7 +57,7 @@ debería devolver:
 
 ```
 
-[[Ver solución](códigos/t7eXXX.py)]
+[[Ver solución](códigos/t7e09.películas.py)]
 
 # Ejercicio 5 (Películas): Leer fichero a lista de diccionario: 
 *Lea el contenido de ["pelis.txt"](códigos/pelis.txt) y guárdelas en una lista. El esquema que usaremos es:*
@@ -69,7 +71,7 @@ for línea in fichero:
 fichero.close()
 ```
 
-[[Ver solución](códigos/t7eXXX.py)]
+[[Ver solución](códigos/t7e09.películas.py)]
 
 # Ejercicio 6: Películas: 
 *Cree un grupo de 2 o 3 personas y conéctese a SOCRATIVE para validar sus respuestas a las siguientes preguntas:*
@@ -104,4 +106,4 @@ fichero.close()
 
 *b)	Busque el que tiene una ratio recaudación/num_pelis más alto.*
 
-[[Ver solución](códigos/t7eXXX.py)]
+[[Ver solución](códigos/t7e09.películas.py)]
