@@ -58,7 +58,7 @@ debería devolver:
 [[Ver solución](códigos/t7eXXX.py)]
 
 # Ejercicio 5 (Películas): Leer fichero a lista de diccionario: 
-*Lea el contenido de "pelis.txt" y guárdelas en una lista. El esquema que usaremos es:*
+*Lea el contenido de ["pelis.txt"](códigos/pelis.txt) y guárdelas en una lista. El esquema que usaremos es:*
 
 ```python
 fichero = open(“nombre_fichero”)
