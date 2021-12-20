@@ -2,8 +2,8 @@
 
 En este clase vimos cómo calcular el mínimo valor (o clave) de un diccionario. También vimos como trabajar cuando un campo de un diccionario almacena una lista. Finalmente, vimos de manera informal cómo leer un fichero y seguimos repasando cómo trabajar con una lista de diccionarios.
 
-# Ejercicio 1: Mínimo en un diccionario: 
-*Dado un diccionario (con el del ejemplo) donde tenemos para una serie de meses su temperatura media, calcule cuál es la menor temperatura media.*
+## Ejercicio 1: Máximo en un diccionario: 
+*Dado un diccionario (con el del ejemplo) donde tenemos para una serie de meses su temperatura media, calcule cuál es la mayor temperatura media.*
 
 ```python
 Málaga = {"enero": 12, "febrero": 12, "marzo": 14, "abril": 16, "mayo": 19, "junio": 23, "julio": 26, "agosto": 26,"septiembre": 23, "octubre": 19, "noviembre": 15, "diciembre": 13}
@@ -11,10 +11,10 @@ Yakustk = {"enero": -38, "febrero": -34, "marzo": -20, "abril": -5, "mayo": 8, "
 ```
 [[Ver solución](códigos/t7eXXX.py)]
 
-# Ejercicio 2: Valor del mínimo: 
-*Modifique el anterior para obtener el nombre del mes que tiene la temperatura mínima.*
+## Ejercicio 2: Valor del máximo: 
+*Modifique el anterior para obtener el nombre del mes que tiene la temperatura máxima.*
 
-# Ejercicio 3: Diccionarios de listas: 
+## Ejercicio 3: Diccionarios de listas: 
 *La tasa de éxito de una asignatura mide el número de alumnos que superan una asignatura respecto al número de alumnos que se presentan a la asignatura. Dado un diccionario con las asignaturas como claves y que tienen como valor la tasa de éxito de los últimos años, realice un programa que escriba para cada asignatura la tasa de éxito media de esos años. Ejemplos (datos oficiales extraídos de la página de calidad de la UMA).*
 
 ```python
@@ -76,9 +76,9 @@ fichero.close()
 
 *1.- ¿Cuántas películas hay en el fichero?*
 
-*2.- ¿Cuál es el último género de la película en la posición 6? (Recuerde las listas empiezan en 0)*
+*2.- ¿Cuál es el último género de la sexta película en la lista? (Recuerde las listas empiezan en 0)*
 
-*3.- ¿Cuáles son los primeros 3 actores de la película en la posición 6? (El formato debe ser actor1, actor2, actor3)*
+*3.- ¿Cuáles son los primeros 3 actores de la sexta película en la lista? (El formato debe ser actor1, actor2, actor3)*
 
 *4.- ¿Cuántas películas hay posterior al 2000?*
 
@@ -94,7 +94,7 @@ fichero.close()
 
 *10.- ¿Cuántos géneros diferentes hay? (Se recomienda hacer una lista donde meta los géneros sin repetirlos).*
 
-*11.- ¿Qué actor que ha participado en más películas? ¿y en cuantasocs? (La respuesta sería actor – num_pelis) (Se recomienda generar un diccionario con pares: actor:num_pelis y luego obtener el máximo).*
+*11.- ¿Qué actor que ha participado en más películas? ¿y en cuantas? (La respuesta sería actor – num_pelis) (Se recomienda generar un diccionario con pares: actor:num_pelis y luego obtener el máximo).*
 
 *Extra:*
 
