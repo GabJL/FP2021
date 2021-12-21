@@ -78,3 +78,21 @@ CD Alavés 1 –4 Real Madrid
 *Para hacer este ejercicio necesita importar la biblioteca `random` (`import random`) y saber que puede generar un número aleatorio entre 0 y N (incluyendo el N) con `valor_aleatorio = random.randint(0, N)`.*
 
 *Primero  desarrolle  una  función  auxiliar `def  obtener_pelis(pelis,  campo,  N)` que  recibiendo  el  listado  con  todas  las películas, un texto con el nombre de un `campo` simple (director, año, duración, votos, imdb, metascore o recaudación) y un número `N`, nos  devuelva  un  listado  de `N` películas que  tengan  valores  diferentes  en  el `campo` indicado.  Para hacer esto, parta de un listado vacío, y vaya generando posiciones aleatorias y añádalas al listado si no estaban (seguramente necesite implementar una función `está` ya que `in` en este caso no funciona) hasta que haya `N` películas en el listado.*
+
+*Ahora vamos a desarrollar un tipo de pregunta para nuestro trivial sobre quién dirigió una película del tipo:*
+```
+¿Cuál es el director/a de la película The Lord of the Rings: The Fellowship of the Ring?
+0) David Fincher
+1) Francis Ford Coppola
+2) Peter Jackson
+3) Steven Spielberg
+```
+
+*Para  ello,  desarrolle  una  función  llamada `def  pregunta_director1(pelis,  N)` que  recibe  el  listado  de  todas  las  películas (`pelis`) y un número `N` y haga el siguiente proceso:*
+1. *Llame a `obtener_pelis(pelis, "director", N)` para obtener un listado de `N` películas con director diferente.*
+2. *Elija un número aleatorio entre 0 y `N-1` (consideraremos que esta es la correcta)*
+3. *Muestra la pregunta, que es el siguiente texto: `"¿Cuál es el director/a de la película XXX?"` donde `XXX` debe ser el título de la película elegida como correcta.*
+4. *Muestre los directores de las `N` películas numerados tal como se muestran en el ejemplo previo.*
+5. *Pida al usuario su elección y léala.*
+6. *Muestre un mensaje al usuario indicando si acertó o no.*
+7. *Devuelva como resultado de la función un booleano indicando si acertó (`True`) o no (`False`)*
