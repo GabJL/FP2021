@@ -108,3 +108,40 @@ CD Alavés 1 –4 Real Madrid
   * *Si el valor del número aleatorio es 0 se llamará a la función `pregunta_director1` y si es 1 se llamará a la función `pregunta_director2`.*
   * *Si acierta la respuesta se incrementa su puntuación.*
  4. *Se muestra la puntuación final del jugador*
+
+*__Extra 0: Restringiendo las preguntas:__*
+
+*Si las preguntas que surgen son muy complicadas/desconocidas puede restringir las preguntas en la lectura del fichero. En `leer_fichero` añada la película a la lista por ejemplo sólo si es reciente (quizás posterior a 2000) o que tenga una recaudación alta (más de 20 millones de dólares) o una puntuación alta (más de 8 en imdb o 80 en metascore) o incluso, mezclando diferentes condiciones.*
+
+*También puede modificar el fichero `pelis.txt` eliminando las que les resulte más raras.*
+
+*__Extra 1: Más preguntas simples:__*
+
+*Puede añadir preguntas siguiendo el esquema anterior. Añada las que quiera, aquí se ofrece algunas posibilidades:*
+1. *Usando el año: ¿Qué película que se estrenó en el año XXX? ¿En qué año se estrenó la película XXX? ¿Cuál es la película más antigua? ¿Cuál es la película más reciente?*
+2. *Usando la duración: ¿Cuál es la película más larga? ¿Cuál es la película más corta?*
+3. *Usando alguna puntuación (XXX = imdb o metascore): ¿Cuál de las siguientes películas tiene más puntuación según XXX? ¿Cuál de las siguientes películas tiene menos puntuación según XXX?*
+4. *Usando la recaudación: ¿Cuál de las siguientes películas recaudó más?*
+
+*Además de añadir las funciones oportunas para las preguntas, debe modificar el programa principal para generar un número aleatorio entre 0 y la cantidad de preguntas que tenga -1 y luego llamar de forma oportuna a la función adecuada según la pregunta elegida. Para algunas de esas preguntas necesita calcular el mayor y menor.*
+
+*__Extra 2: Modo multijugador__*
+
+*Ahora se añadirá soporte para que puedan jugar varias personas de forma alternativa. Al inicio pregunte cuántos jugadores hay y lea sus nombres. Con sus nombres genere un diccionario puntuación donde como clave tendrá el nombre del jugador y como valor 0 (indicando que tiene 0 aciertos).*
+
+*Luego en cada ronda debe hacer una pregunta aleatoria a cada jugador (haga un `for` sobre el diccionario de la puntuación) y modifique su puntuación dependiendo de si acierta o no.*
+
+*Al final debe indicar cuántos aciertos tuvo cada jugador y quién es el ganador.*
+
+*__Extra 3: Preguntas sobre campos complejos (género o actores):__*
+
+*Para generar preguntas del tipo `¿En cuál de las siguientes películas ha participado el actor/actriz XXX?` o `¿Cuál de las siguientes películas pertenece al género de XXX?` necesitamos cambiar un poco el esquema de la pregunta. Por ejemplo, el esquema para el actor sería:*
+
+1. *Elija aleatoriamente una película: `película`.*
+2. *Obtenga un actor aleatorio entre los disponibles en la `película`: `actor`.*
+3. *Llame a una función `obtener_pelis2(pelis, "actores", actor, N)`. Esta función es equivalente a la que hicimos antes, pero debe generar un listado de `N` películas que en el campo `"actores"` no tenga a `actor`.*
+*4. *Elija un número aleatorio entre 0 y `N` y reemplace el contenido de esa posición con la `película elegida` en el paso 1 (esa será la respuesta correcta a la pregunta).*
+5. *El resto de pasos es igual que en el esquema de las otras preguntas: mostrar preguntas, opciones, pedir opciones
+al usuario, decidir si acertó o no...*
+
+*Existen múltiples preguntas que puede hacer usando los actores o géneros (haga las que considere adecuadas). Al igual que antes, además de añadir las funciones oportunas para las preguntas, debe modificar el programa principal para generar un número aleatorio entre 0 y la cantidad de preguntas que tenga -1 y luego llamar de forma oportuna a la función adecuada según la pregunta elegida.*
