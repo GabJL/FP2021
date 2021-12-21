@@ -103,10 +103,8 @@ CD Alavés 1 –4 Real Madrid
 1. *Preguntar cuántas preguntas quiere responder, `P`.*
 2. *Preguntar la dificultad (cuántas respuestas quiere por pregunta), `N`.*
 3. *Mientras el número de preguntas realizadas sea menor que `P`:*
-
-       1. *Se muestra en qué ronda vamos (número de preguntas hechas) y su puntuación (al inicio 0).*
-       2. *Se elige un número aleatorio entre 0 y 1.*
-       3. *Si el valor del número aleatorio es 0 se llamará a la función `pregunta_director1` y si es 1 se llamará a la función `pregunta_director2`.*
-       4. *Si acierta la respuesta se incrementa su puntuación.*
-
+ 1. *Se muestra en qué ronda vamos (número de preguntas hechas) y su puntuación (al inicio 0).*
+ 2. *Se elige un número aleatorio entre 0 y 1.*
+ 3. *Si el valor del número aleatorio es 0 se llamará a la función `pregunta_director1` y si es 1 se llamará a la función `pregunta_director2`.*
+ 4. *Si acierta la respuesta se incrementa su puntuación.*
 4. *Se muestra la puntuación final del jugador*
