@@ -70,3 +70,11 @@ CD Alavés 1 –4 Real Madrid
 *__Apartado H (★★★✰✰)__ Realizar otra función que, recibiendo el diccionario previamente generado y el nombre de un equipo, nos indique cuál es su puesto en la clasificación (su puesto viene determinado por cuántos equipos tienen más puntos que él, puede suponer que está delante de todos los que tiene sus mismos puntos). Por ejemplo, como posición del `Cádiz CF`debería devolver `19`.*
 
 *__OBJETIVOS:__ Contar cuántos cumplen cierta propiedad.*
+
+## Ejercicio 2: Trivia de películas
+
+*Vamos a desarrollar un juego de preguntas (trivia) basado en los datos de películas que se usaron en la clase del día 20 de diciembre. Se facilita un fichero `p7e02.películas.py` donde se da una función que lee los datos del fichero (`pelis.txt`). De  cada  película  se  tiene: `título` (string), `géneros` (lista  de  string), `director` (string), `actores` (lista  de  string), `año` de lanzamiento  (int), `duración` (int), `votos` (int),  puntuación  de `imdb` (double),  puntuación  en `metascore` (double)  y  su `recaudación` (float). Está `marcado` el nombre de los campos con los que puede acceder a la información.*
+
+*Para hacer este ejercicio necesita importar la biblioteca `random` (`import random`) y saber que puede generar un número aleatorio entre 0 y N (incluyendo el N) con `valor_aleatorio = random.randint(0, N)`.*
+
+*Primero  desarrolle  una  función  auxiliar `def  obtener_pelis(pelis,  campo,  N)` que  recibiendo  el  listado  con  todas  las películas, un texto con el nombre de un `campo` simple (director, año, duración, votos, imdb, metascore o recaudación) y un número `N`, nos  devuelva  un  listado  de `N` películas que  tengan  valores  diferentes  en  el `campo` indicado.  Para hacer esto, parta de un listado vacío, y vaya generando posiciones aleatorias y añádalas al listado si no estaban (seguramente necesite implementar una función `está` ya que `in` en este caso no funciona) hasta que haya `N` películas en el listado.*
