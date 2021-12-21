@@ -36,3 +36,23 @@ Jornada. Equipo_local – Equipo_visitante : goles_local goles_visitante
             lista.append(partido)
       fichero.close()
 ```
+*__OBJETIVOS:__ Leer un fichero y generar una lista de diccionarios*
+
+*__Apartado C (★✰✰✰✰)__ En la parte del programa principal, llame de forma apropiada a leer_partidopara obtener los datos del partido  y  muestre  por  pantalla  cuántos  partidos  se  leyeron  con  el  siguiente  formato: `Se  han  cargado XXX partidos correctamente`donde `XXX`(deberían ser 176) serán los partidos que se han leído del fichero.*
+
+*__OBJETIVOS:__ Uso de funciones.* 
+
+*__Operaciones sencillas:__*
+
+*__Apartado D (★★★✰✰)__ Desarrolle una función `def partidos_equipo(lista, equipo)`que reciba el nombre de un equipo y nos  muestre  por  pantalla  los  partidos  en  los  intervino  dicho  equipo. Cada  partido  debe  mostrarse  con  el  formato mostrado en este ejemplo:*
+```
+CD Alavés 1 –4 Real Madrid
+```
+
+*En el programa principal llame a la función con un equipo fijo (el que prefiera).*
+
+*__OBJETIVOS:__ Mostrar datos filtrados de un listado.*
+
+*__Apartado E (★★✰✰✰)__ Hacer función `def goles_equipo(lista, equipo)`que nos devuelva cuantosgoles a marcado (goles a favor) y cuántos ha recibido (goles en contra) del equipo que pasan como parámetro. En el programa principal llame a esta función de forma apropiada. Por ejemplo, para `goles_equipo(l, "Cádiz CF")`devolvería `15` a favor y `31` en contra.*
+
+*__OBJETIVOS:__ Cálculos sobre datos que cumplen cierta condición.*
