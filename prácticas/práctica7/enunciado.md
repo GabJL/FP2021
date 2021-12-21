@@ -100,11 +100,11 @@ CD Alavés 1 –4 Real Madrid
 *Desarrolle una segunda función llamada `def pregunta_director2(pelis, N)` que sigue un esquema similar pero ahora la pregunta  es `"¿Qué  película  de  las  siguiente  dirigióXXX?"` donde `XXX` debe  ser  el  director  de  la  película  elegida  como correcta y las potenciales respuestas son los títulos de las películas.*
 
 *Ahora vamos a hacer el programa principal. En él debe seguir el siguiente esquema:*
-1. *Preguntar cuántas preguntas quiere responder, `P`.*
-2. *Preguntar la dificultad (cuántas respuestas quiere por pregunta), `N`.*
-3. *Mientras el número de preguntas realizadas sea menor que `P`:*
- 1. *Se muestra en qué ronda vamos (número de preguntas hechas) y su puntuación (al inicio 0).*
- 2. *Se elige un número aleatorio entre 0 y 1.*
- 3. *Si el valor del número aleatorio es 0 se llamará a la función `pregunta_director1` y si es 1 se llamará a la función `pregunta_director2`.*
- 4. *Si acierta la respuesta se incrementa su puntuación.*
-4. *Se muestra la puntuación final del jugador*
+ 1. *Preguntar cuántas preguntas quiere responder, `P`.*
+ 2. *Preguntar la dificultad (cuántas respuestas quiere por pregunta), `N`.*
+ 3. *Mientras el número de preguntas realizadas sea menor que `P`:* 
+  1. *Se muestra en qué ronda vamos (número de preguntas hechas) y su puntuación (al inicio 0).*
+  2. *Se elige un número aleatorio entre 0 y 1.*
+  3. *Si el valor del número aleatorio es 0 se llamará a la función `pregunta_director1` y si es 1 se llamará a la función `pregunta_director2`.*
+  4. *Si acierta la respuesta se incrementa su puntuación.*
+ 4. *Se muestra la puntuación final del jugador*
