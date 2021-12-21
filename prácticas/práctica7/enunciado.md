@@ -56,3 +56,17 @@ CD Alavés 1 –4 Real Madrid
 *__Apartado E (★★✰✰✰)__ Hacer función `def goles_equipo(lista, equipo)`que nos devuelva cuantosgoles a marcado (goles a favor) y cuántos ha recibido (goles en contra) del equipo que pasan como parámetro. En el programa principal llame a esta función de forma apropiada. Por ejemplo, para `goles_equipo(l, "Cádiz CF")`devolvería `15` a favor y `31` en contra.*
 
 *__OBJETIVOS:__ Cálculos sobre datos que cumplen cierta condición.*
+
+*__Operaciones avanzadas:__*
+
+*__Apartado F (★★★★★)__ Desarrollar una función que partiendo del listado de partidos devuelva un diccionario que tenga como clave el nombre de un equipo y como valor tendrá cuántos puntos ha conseguido. Un equipo consigue 3 puntos si gana un partido, 1 punto se lo empata y no consigue puntos si pierde. El contenido de ese diccionario debería contener: `{'CD Alavés': 15, 'Real Madrid CF': 43, 'FC Barcelona': 27,'Real Sociedad de Fútbol': 29, 'RC Celta': 20,...}`*
+
+*__OBJETIVOS:__ Generación de un diccionario a partir de una lista.*
+
+*__Apartado  G  (★★★★✰)__ Implemente  otra  función  que,  recibiendo  el  diccionario  previamente  generado,  nos  indique quién va en el primer puesto de la liga (el que tenga más puntos). Con los datos del fichero, el líder es `Real Madrid CF`.*
+
+*__OBJETIVOS:__ Mayor de un diccionario.*
+
+*__Apartado H (★★★✰✰)__ Realizar otra función que, recibiendo el diccionario previamente generado y el nombre de un equipo, nos indique cuál es su puesto en la clasificación (su puesto viene determinado por cuántos equipos tienen más puntos que él, puede suponer que está delante de todos los que tiene sus mismos puntos). Por ejemplo, como posición del `Cádiz CF`debería devolver `19`.*
+
+*__OBJETIVOS:__ Contar cuántos cumplen cierta propiedad.*
