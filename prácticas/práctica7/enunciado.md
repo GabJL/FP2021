@@ -71,6 +71,8 @@ CD Alavés 1 –4 Real Madrid
 
 *__OBJETIVOS:__ Contar cuántos cumplen cierta propiedad.*
 
+[[Ver solución](código/p7e01.futbol.py)]
+
 ## Ejercicio 2: Trivia de películas
 
 *Vamos a desarrollar un juego de preguntas (trivia) basado en los datos de películas que se usaron en la clase del día 20 de diciembre. Se facilita un fichero `p7e02.películas.py` donde se da una función que lee los datos del fichero (`pelis.txt`). De  cada  película  se  tiene: `título` (string), `géneros` (lista  de  string), `director` (string), `actores` (lista  de  string), `año` de lanzamiento  (int), `duración` (int), `votos` (int),  puntuación  de `imdb` (double),  puntuación  en `metascore` (double)  y  su `recaudación` (float). Está `marcado` el nombre de los campos con los que puede acceder a la información.*
