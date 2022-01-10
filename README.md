@@ -10,7 +10,7 @@ En este repositorio se irán subiendo los códigos desarrollados durante la doce
 * [Tema 5](temas/tema5/indice.md): Listas
 * [Tema 6](temas/tema6/indice.md): String
 * [Tema 7](temas/tema7/indice.md): Diccionarios
-* [Tema 8](temas/teme8/indice.md): Ficheros
+* [Tema 8](temas/tema8/indice.md): Ficheros
 
 ## Clases
 * [Clase 1 (27/9)](temas/tema1/clase1.md): Conceptos de algoritmo y visión información de programación en python
