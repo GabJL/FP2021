@@ -33,6 +33,7 @@ En este repositorio se irán subiendo los códigos desarrollados durante la doce
 * [Clase 17 (13/12)](temas/tema7/clase17.md): Concepto y uso de diccionarios.
 * [Clase 18 (14/12)](temas/tema7/clase18.md): Ejercicio de examen de diccionarios. Lista de diccionarios.
 * [Clase 19 (20/12)](temas/tema7/clase19.md): Máximos/mínimos en diccionarios. Campos que son listas. Listas de diccionarios.
+* [Clase 20 (10/1)](temas/tema8/clase20.md): Uso de ficheros.
 
 ## Prácticas
 * [Práctica 1](prácticas/práctica1/enunciado.md): Repasar conceptos básicos de python como son los identificadores, las variables, los tipos o el uso de expresiones básicas.
