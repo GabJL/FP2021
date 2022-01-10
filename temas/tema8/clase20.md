@@ -11,7 +11,7 @@ Aunque ya en clases previas vimos cómo utilizar los ficheros, aquí lo vemos m�
 
 [[Ver Código (1 número por línea)](códigos/t8e1.números1.py)]
 
-[[Ver Código (varios número por línea)](códigos/t8e1.números1.py)]
+[[Ver Código (varios número por línea)](códigos/t8e2.números2.py)]
 
 ## Ejercicio 2: Fichero de datos de series:
 
@@ -27,6 +27,6 @@ Aunque ya en clases previas vimos cómo utilizar los ficheros, aquí lo vemos m�
 *La función debe devolver como lista de diccionarios: `[{"serie": "Breaking Bad", "episodios": 62, "duración": 50, "plataforma": "Netflix"}, …]`*
 *En ambos casos añada un nuevo valor a cada una con la duración total. Luego, muestre el título de la más larga.
 
-[[Ver Código (Lista)](códigos/t8e2.series_listas.py)]
+[[Ver Código (Lista)](códigos/t8e3.series_listas.py)]
 
-[[Ver Código (Diccionario)](códigos/t8e2.series_dict.py)]
+[[Ver Código (Diccionario)](códigos/t8e4.series_dict.py)]
