@@ -9,7 +9,7 @@ def ejercicio_con_read(filename):
     return suma
     
 def ejercicio_con_readlines(filename):
-    f = open("numeros1.txt")
+    f = open(filename)
     lineas = f.readlines()
     f.close()
     suma = 0
@@ -18,7 +18,7 @@ def ejercicio_con_readlines(filename):
     return suma
     
 def ejercicio_con_readline(filename):
-    f = open("numeros1.txt")
+    f = open(filename)
     suma = 0
     linea = f.readline()
     while linea != "":
@@ -28,7 +28,7 @@ def ejercicio_con_readline(filename):
     return suma
     
 def ejercicio_con_for(filename):
-    f = open("numeros1.txt")
+    f = open(filename)
     suma = 0
     for l in f:
         suma += float(l)
