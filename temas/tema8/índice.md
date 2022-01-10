@@ -5,3 +5,5 @@
 3. Lectura de ficheros en estructuras
 
 # Clases
+
+* [Clase 20 (10/1)](clase20.md): Uso de ficheros.
