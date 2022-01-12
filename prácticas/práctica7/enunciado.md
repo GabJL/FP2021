@@ -147,3 +147,6 @@ CD Alavés 1 –4 Real Madrid
 al usuario, decidir si acertó o no...*
 
 *Existen múltiples preguntas que puede hacer usando los actores o géneros (haga las que considere adecuadas). Al igual que antes, además de añadir las funciones oportunas para las preguntas, debe modificar el programa principal para generar un número aleatorio entre 0 y la cantidad de preguntas que tenga -1 y luego llamar de forma oportuna a la función adecuada según la pregunta elegida.*
+
+[[Ver solución](código/p7e01.películas.py)]
+
