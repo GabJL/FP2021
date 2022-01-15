@@ -7,7 +7,7 @@ Aunque ya en clases previas vimos cómo utilizar los ficheros, aquí lo vemos m�
 
 *Modifique el programa anterior para que nos indique su media.*
 
-*Cree un fichero de texto donde hay muchas líneas y cada línea puede contener 1 o muchos números (separadospor espacios). Realice un programa que lee el fichero y nos indique la media.*
+*Cree un fichero de texto donde hay muchas líneas y cada línea puede contener 1 o muchos números (separados por espacios). Realice un programa que lee el fichero y nos indique la media.*
 
 [[Ver Código (1 número por línea)](códigos/t8e1.números1.py)]
 
