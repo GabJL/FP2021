@@ -35,7 +35,7 @@ En este repositorio se irán subiendo los códigos desarrollados durante la doce
 * [Clase 19 (20/12)](temas/tema7/clase19.md): Máximos/mínimos en diccionarios. Campos que son listas. Listas de diccionarios.
 * [Clase 20 (10/1)](temas/tema8/clase20.md): Uso de ficheros.
 * [Clase 21 (11/1)](temas/tema8/clase21.md): Resolución del examen de febrero de 2021.
-* [Clase 22 (17/1)](temas/tema8/clase21.md): Resolución del examen de diciembre de 2020.
+* [Clase 22 (17/1)](temas/tema8/clase22.md): Resolución del examen de diciembre de 2020.
 
 ## Prácticas
 * [Práctica 1](prácticas/práctica1/enunciado.md): Repasar conceptos básicos de python como son los identificadores, las variables, los tipos o el uso de expresiones básicas.
