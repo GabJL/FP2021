@@ -8,3 +8,4 @@
 
 * [Clase 20 (10/1)](clase20.md): Uso de ficheros.
 * [Clase 21 (11/1)](clase21.md): Resolución del examen de 2021.
+* [Clase 22 (17/1)](clase22.md): Resolución del examen de diciembre de 2020.
