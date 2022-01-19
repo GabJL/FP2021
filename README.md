@@ -45,6 +45,7 @@ En este repositorio se irán subiendo los códigos desarrollados durante la doce
 * [Práctica 5](prácticas/práctica5/enunciado.md): Subprogramas y listas.
 * [Práctica 6](prácticas/práctica6/enunciado.md): Strings.
 * [Práctica 7](prácticas/práctica7/enunciado.md): Diccionarios.
+* [Práctica 8](prácticas/práctica8/enunciado.md): Ficheros y repaso.
 
 ## Examenes
 * [Parcial 1](exámenes/c1.GIS.1A.2001.md): Primer parcial.
