@@ -44,6 +44,9 @@ juan GANA 10.28571
 ana GANA 5.142857
 luis miguel GANA 2.571428
 ```
+
+[[Ver código](códigos/p8e01.apuestas.py)]
+
 ## Ejercicio 2 (p8e02.gastos.py) 
 *Se tiene un fichero `gastos.txt` con las cantidades gastadas en una larga serie de compras:*
 ```
@@ -69,21 +72,21 @@ Bart: 1.5 54
 Maggie: 0.88 12.25
 ```
 
-Hacer una función def leeAlturasPesos(...) que reciba en su parámetro el nombre de un fichero, y que devuelva una lista
-estructurada con todos los datos del fichero, tal que cada elemento de la lista contenga un diccionario con los campos:
-'nombre', 'altura' y 'peso'. Una vez devuelta esta lista, en el programa principal, guardarla en una variable apropiada para
-usarla en el siguiente ejercicio.
-Ejercicio 4 (p8e03_4.clínica.py) Modifique el programa anterior para hacer un subprograma def imprimeIMC(lista) que
-reciba la lista anterior e imprima, desde dentro del subprograma, el índice de masa corporal de cada persona. Para ello
-hacer antes otra pequeña función que reciba dos parámetros, la altura y el peso y que devuelva el IMC imc
-correspondiente aplicando la fórmula: imc = p/h*h donde p es el peso en Kg y h la altura en metros. Para los datos del
-ejemplo dado deberían salir:
+*Hacer una función `def leeAlturasPesos(...)` que reciba en su parámetro el nombre de un fichero, y que devuelva una lista estructurada con todos los datos del fichero, tal que cada elemento de la lista contenga un diccionario con los campos: `'nombre'`, `'altura'` y `'peso'`. Una vez devuelta esta lista, en el programa principal, guardarla en una variable apropiada para usarla en el siguiente ejercicio.*
+
+## Ejercicio 4 (p8e03_4.clínica.py) 
+*Modifique el programa anterior para hacer un subprograma `def imprimeIMC(lista)` que reciba la lista anterior e imprima, desde dentro del subprograma, el índice de masa corporal de cada persona. Para ello hacer antes otra pequeña función que reciba dos parámetros, la altura y el peso y que devuelva el IMC correspondiente aplicando la fórmula: `imc = p/h*h` donde p es el peso en Kg y h la altura en metros. Para los datos del ejemplo dado deberían salir:*
+
+```
 Homer: 32.60475787948315
 Marge: 18.614274477617048
 ...
-Ejercicio 5 (p8e05_6.cine.py) Se tiene la información de las películas del año 2017 en un fichero cine2017.txt de forma
-que detrás del título, que está en una línea, se tiene un resumen en variaslíneas. La línea del título empieza por el carácter
-'*' y a continuación el resto de la línea es el título de la misma:
+```
+
+## Ejercicio 5 (p8e05_6.cine.py) 
+
+*Se tiene la información de las películas del año 2017 en un fichero `cine2017.txt` de forma que detrás del título, que está en una línea, se tiene un resumen en variaslíneas. La línea del título empieza por el carácter '*' y a continuación el resto de la línea es el título de la misma:*
+```
 *Coco
 Aspiring musician Miguel, confronted with his family’s ancestral ban on music, enters the Land of
 the Dead to find his great-great-grandfather, a legendary singer
@@ -103,18 +106,17 @@ mutant arrives, pursued by dark forces.
 *Dunkerque
 Allied soldiers from Belgium, the British Empire and France are surrounded by the German Army,
 and evacuated during a fierce battle in World War II.
-Hacer una o varias funciones para que llamando a la función def leePeliculas (...) reciba el nombre de un fichero como el
-que se pone de ejemplo (cine2017.txt) y nos devuelva una lista con registros (dict) cada uno con el 'nombre' y la
-'descripción' de cada película que haya en el fichero. Fuera de esta función, guardar esa lista devuelta en una variable.
-Ejercicio 6 (p8e05_6.cine.py) En el mismo fichero, ahora Hacer una función def buscaPelicula( listaPeliculas, nombre)
-que reciba el listado obtenido en el problema anterior y cualquier nombre de película en el segundo parámetro. La
-función devolverá la descripción de la película. Si la película no estuviera, devolverá una cadena vacía. Al final de nuestro
-programa python llamar a la función con la lista y la película de nombre, por ejemplo, "Coco" primero e imprimir la
-descripción que se nos devuelva. Imprimir también la descripción de una película que no esté, "Nemo", por ejemplo. Usar
-el tipo de bucle adecuado para lo que es el proceso de una búsqueda.
-Ejercicio 7 (p8e07.dnarep.py) Hacer el programa que lee un fichero con varias secuencias fasta en un diccionario.
-Después, imprimirá los identificadores de aquellas secuencias que no están repetidas con una anterior. Para el ejemplo
-dado fastas.txt:
+```
+
+*Hacer una o varias funciones para que llamando a la función `def leePeliculas (...)` reciba el nombre de un fichero como el que se pone de ejemplo (`cine2017.txt`) y nos devuelva una lista con registros (`dict`) cada uno con el `'nombre'` y la `'descripción'` de cada película que haya en el fichero. Fuera de esta función, guardar esa lista devuelta en una variable.*
+
+## Ejercicio 6 (p8e05_6.cine.py) 
+*En el mismo fichero, ahora Hacer una función `def buscaPelicula( listaPeliculas, nombre)` que reciba el listado obtenido en el problema anterior y cualquier nombre de película en el segundo parámetro. La función devolverá la descripción de la película. Si la película no estuviera, devolverá una cadena vacía. Al final de nuestro programa python llamar a la función con la lista y la película de nombre, por ejemplo, `"Coco"` primero e imprimir la descripción que se nos devuelva. Imprimir también la descripción de una película que no esté, `"Nemo"`, por ejemplo. Usar el tipo de bucle adecuado para lo que es el proceso de una búsqueda.
+
+## Ejercicio 7 (p8e07.dnarep.py) 
+
+*Hacer el programa que lee un fichero con varias secuencias fasta en un diccionario. Después, imprimirá los identificadores de aquellas secuencias que no están repetidas con una anterior. Para el ejemplo dado `fastas.txt`:
+```
 >Laurencia primera
 TAGAATATTATTAACAGTACATAGGCATTCCGTATGATTGCTCGCCCGGTCCTGTACGCA
 TCATACTGCTCTAAAACTCC
@@ -126,8 +128,11 @@ ATAGGCATTCCGTATGATTGCTCGCCCGGTCCTGTACGCA
 TCATACTGCTCTAAAACTCC
 >Last dna
 GCGAGCAATCATACGGAATGCCTATGTACTGTTAATAATATTCTA
+```
 imprimiría:
+```
 Laurencia primera
 Glaucocystis vis
 Last dna
-ya que la Otra Laurencia tiene la misma composición que la Laurencia primera.
+```
+ya que la `Otra Laurencia` tiene la misma composición que la `Laurencia primera`.
