@@ -61,6 +61,8 @@ luis miguel GANA 2.571428
 ```
 *Se quiere saber cuál es la cantidad media de lo gastado, lo máximo y lo mínimo. Para ello desarrollar una función capaz de leer cualquier fichero de nombre recibido en un único parámetro con el nombre del fichero, y que devuelva los tres números reales: media, mínimo y máximo. Definir la función `def leeGastos(..)` que reciba el nombre del fichero en un parámetro, y que devuelva los tres valores anteriores, para que fuera de la función se puedan imprimir al final del programa. Los gastos son números reales que están separados por espacios en varias líneas. Para los datos previos saldría: `(439.3402500000001, 14.31, 979.8)`.*
 
+[[Ver código](códigos/p8e02.gastos.py)]
+
 ## Ejercicio 3 (p8e03_4.clínica.py) 
 
 *En una clínica se tienen unos datos de los usuarios en un fichero `usuarios.txt` de forma que en cada línea del fichero se tiene el nombre seguido de `':'` y dos números reales que son la altura (m) y el peso (kg) del usuario separados por espacios:*
@@ -74,6 +76,8 @@ Maggie: 0.88 12.25
 
 *Hacer una función `def leeAlturasPesos(...)` que reciba en su parámetro el nombre de un fichero, y que devuelva una lista estructurada con todos los datos del fichero, tal que cada elemento de la lista contenga un diccionario con los campos: `'nombre'`, `'altura'` y `'peso'`. Una vez devuelta esta lista, en el programa principal, guardarla en una variable apropiada para usarla en el siguiente ejercicio.*
 
+[[Ver código](códigos/p8e03_4.clínica.py)]
+
 ## Ejercicio 4 (p8e03_4.clínica.py) 
 *Modifique el programa anterior para hacer un subprograma `def imprimeIMC(lista)` que reciba la lista anterior e imprima, desde dentro del subprograma, el índice de masa corporal de cada persona. Para ello hacer antes otra pequeña función que reciba dos parámetros, la altura y el peso y que devuelva el IMC correspondiente aplicando la fórmula: `imc = p/h*h` donde p es el peso en Kg y h la altura en metros. Para los datos del ejemplo dado deberían salir:*
 
@@ -82,6 +86,8 @@ Homer: 32.60475787948315
 Marge: 18.614274477617048
 ...
 ```
+
+[[Ver código](códigos/p8e03_4.clínica.py)]
 
 ## Ejercicio 5 (p8e05_6.cine.py) 
 
@@ -110,8 +116,12 @@ and evacuated during a fierce battle in World War II.
 
 *Hacer una o varias funciones para que llamando a la función `def leePeliculas (...)` reciba el nombre de un fichero como el que se pone de ejemplo (`cine2017.txt`) y nos devuelva una lista con registros (`dict`) cada uno con el `'nombre'` y la `'descripción'` de cada película que haya en el fichero. Fuera de esta función, guardar esa lista devuelta en una variable.*
 
+[[Ver código](códigos/p8e05_6.cine.py)]
+
 ## Ejercicio 6 (p8e05_6.cine.py) 
 *En el mismo fichero, ahora Hacer una función `def buscaPelicula( listaPeliculas, nombre)` que reciba el listado obtenido en el problema anterior y cualquier nombre de película en el segundo parámetro. La función devolverá la descripción de la película. Si la película no estuviera, devolverá una cadena vacía. Al final de nuestro programa python llamar a la función con la lista y la película de nombre, por ejemplo, `"Coco"` primero e imprimir la descripción que se nos devuelva. Imprimir también la descripción de una película que no esté, `"Nemo"`, por ejemplo. Usar el tipo de bucle adecuado para lo que es el proceso de una búsqueda.
+
+[[Ver código](códigos/p8e05_6.cine.py)]
 
 ## Ejercicio 7 (p8e07.dnarep.py) 
 
@@ -136,3 +146,5 @@ Glaucocystis vis
 Last dna
 ```
 ya que la `Otra Laurencia` tiene la misma composición que la `Laurencia primera`.
+
+[[Ver código](códigos/p8e07.dnarep.py)]
