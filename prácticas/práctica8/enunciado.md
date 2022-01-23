@@ -79,6 +79,7 @@ Maggie: 0.88 12.25
 [[Ver código](códigos/p8e03_4.clínica.py)]
 
 ## Ejercicio 4 (p8e03_4.clínica.py) 
+
 *Modifique el programa anterior para hacer un subprograma `def imprimeIMC(lista)` que reciba la lista anterior e imprima, desde dentro del subprograma, el índice de masa corporal de cada persona. Para ello hacer antes otra pequeña función que reciba dos parámetros, la altura y el peso y que devuelva el IMC correspondiente aplicando la fórmula: `imc = p/h*h` donde p es el peso en Kg y h la altura en metros. Para los datos del ejemplo dado deberían salir:*
 
 ```
