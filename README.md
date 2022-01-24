@@ -36,6 +36,7 @@ En este repositorio se irán subiendo los códigos desarrollados durante la doce
 * [Clase 20 (10/1)](temas/tema8/clase20.md): Uso de ficheros.
 * [Clase 21 (11/1)](temas/tema8/clase21.md): Resolución del examen de febrero de 2021.
 * [Clase 22 (17/1)](temas/tema8/clase22.md): Resolución del examen de diciembre de 2020.
+* [Clase 23 (24/1)](temas/tema8/clase23.md): Resolución de una primera versión del parcial que tenía pensado.
 
 ## Prácticas
 * [Práctica 1](prácticas/práctica1/enunciado.md): Repasar conceptos básicos de python como son los identificadores, las variables, los tipos o el uso de expresiones básicas.
