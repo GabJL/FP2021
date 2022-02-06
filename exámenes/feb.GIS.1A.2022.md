@@ -10,6 +10,8 @@ print(normalizar01([1, 0]))
 ```
 *Se valorará la creación de funciones auxiliares apropiadas.*
 
+[[Ver solución](feb_2022/1.normaliza.py)]
+
 # 2.divisores.py 
 *Desarrollar una función `def divisores(n)` que recibiendo un número natural, nos devuelva una lista que incluya todos los divisores del número (menos 1 y él mismo). Ahora realice las funciones `def perfecto(n)` y `def primo(n)` que recibiendo un número natural, y construyendo y manejando la lista devuelta por la función `divisores(n)` nos devuelva si el número es `n`  es perfecto y si es el número `n` es primo, respectivamente. Un número es primo si ningún otro número lo divide excepto el número 1 y él mismo. Un número es perfecto
 si la suma de sus divisores (incluyendo 1 y sin considerarse a él mismo) vale igual que el número. Por ejemplo, `6 = 1 + 2 + 3` es perfecto. Probar con:*
@@ -22,6 +24,8 @@ print(f"perfecto(28): {perfecto(28)}")# True
 print(f"primo(13): {primo(13)}") # True
 print(f"perfecto(13): {perfecto(13)}")# False
 ```
+
+[[Ver solución](feb_2022/2.divisores.py)]
 
 # 3.gglobes.py 
 *En un fichero `golden_globes.txt` (abajo) tenemos las nominaciones y premios de los globos de oro 2022 de la siguiente forma (copiar el contenido y pegar dentro de `golden_globes.txt`):*
@@ -65,6 +69,9 @@ txt'))` imprimiría (se han separado en líneas por legibilidad):
 }
 ```
 
+[[Ver solución](feb_2022/3.gglobes.py)]
+
+
 # 4.triunf.py 
 *Podemos copiar el programa solución del ejercicio anterior y llamarlo para este ejercicio:*
 ```python
@@ -84,3 +91,5 @@ premios = {
 ```python
 ['King Richard', 'The Power of the Dog', 'West Side Story', 'Being the Ricardos']
 ```
+
+[[Ver solución](feb_2022/4.triunf.py)]
