@@ -51,3 +51,4 @@ En este repositorio se irán subiendo los códigos desarrollados durante la doce
 ## Examenes
 * [Parcial 1](exámenes/c1.GIS.1A.2001.md): Primer parcial.
 * [Parcial 2](exámenes/c2.GIS.1A.2022.md): Segundo parcial. 
+* [Primera convocatoria ordinaria](exámenes/feb.GIS.1A.2022.md): Segundo parcial. 
